@@ -1,0 +1,101 @@
+.App {
+    text-align: center;
+  }
+  
+
+.App-header {
+
+    background-image: url('./assets/image/bg.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: 100%;
+    display: inline-back;
+    padding: 3% 7% 0px 7%;
+}
+
+.font-top{
+    font-family: "Helvetica";
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.content-container{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+    padding: 150px 200px 150px 200px !important;
+}
+
+.font-content-title{
+    font-family: "Helvetica";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #5C6373;
+
+}
+.font-content-text{
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #5C6373;
+}
+
+
+
+.button-custom {
+    background-color: #FF7D7D;
+    border-radius: 100px;
+    border: none;
+    display: inline-block;
+    width: 240px;
+    height: 60px;
+    margin: 0px 0px 0px 0px !important;
+  
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: "Avenir-Book";
+}
+
+hr{ 
+      border:         none;
+      border-left:    1px solid #F2F4F7;
+      height:         10vh;
+      width:          1px;       
+
+ }
+.avatar-image{
+    max-width: 200px;
+    max-height: 240px;
+}
+
+@media (max-width: 800px) {
+    .font-content-title{
+        font-family: "Helvetica";
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #5C6373;
+    
+    }
+    .font-content-text{
+        font-family: "Helvetica";
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #5C6373;
+    }
+  }

@@ -4,63 +4,18 @@
   font-weight: 700;
   src: url('/assets/font/avenir/AvenirLTStd-Book.otf');
 }
-
-.App-header {
-  background-image: url('./assets/image/bg.png');
+.App{
+  text-align: center;
+}
+.App-fourth-header {
+  background-image: url('./assets/image/bg_yellow.png');
   height: 800px;
   background-repeat: no-repeat;
   z-index: -1;
   background-size: 100%;
   display: inline-back;
-
+  padding: 7% 15% 10% 15%;
 }
-
-
-.navbar-transparent {
-  border-width: 0px;
-  -webkit-box-shadow: 0px 0px;
-  border-color: transparent;
-  border-color: transparent;
-  background-color: transparent;
-
-  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-
-  margin: 
-}
-.right-navbar{
-  margin: 0px;
-  padding: 0px;
-}
-
-.font-top-left{
-  font-family: "Avenir-Book";
-  font-size: 20px;
-  font-weight: lighter;
-  text-align: center;
-  letter-spacing: 0.5px;
-  color: white !important;
-}
-
-.font-top-right{
-  font-family: "Avenir-Book";
-  font-size: 12px;
-  font-weight: lighter;
-  text-align: center;
-  letter-spacing: 1px;
-  color: white !important;
-}
-.font-second{
-  max-width: 672px;
-  font-family: "Avenir-Book";
-  font-size: 48px;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  color: white;
-  text-align: left;
-}
-
 .content-container{
   background-color: white;
   width: 100%;
@@ -69,14 +24,9 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
 }
 
-.row-custom{
-  padding-bottom: 8%;
+.col-sm-5.column{
+  float: right;
 }
-
-.row-custom-center{
-  text-align: center;
-}
-
 
 
 img{
@@ -95,7 +45,6 @@ img{
   display: inline-block;
   width: 244px;
   height: 60px;
-  margin: 50px 0px 0px 0px !important;
 
   font-size: 14px;
   color: white;
@@ -111,7 +60,7 @@ img{
   font-weight: lighter;
   letter-spacing: 1px;
   color: #5C6373;
-  text-align: left;
+
 }
 
 .font-third-second{
@@ -120,7 +69,15 @@ img{
   font-weight: lighter;
   letter-spacing: 1px;
   color: #7a8599;
-  text-align: left;
+
+}
+.font-third-title{
+  font-family: "Avenir-Book";
+  font-size: 36px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #7a8599;
+
 }
 .col-sm-5.column{
   float: right;
