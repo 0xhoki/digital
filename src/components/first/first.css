@@ -1,13 +1,20 @@
+@font-face {
+    font-family: 'Avenir-Book';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/font/avenir/AvenirLTStd-Book.otf');
+}
+
 .App {
     text-align: center;
-  }
+}
   
 
 .App-header {
     background-image: url('./assets/image/bg.png');
     width: 100%;
     background-repeat: no-repeat;
-    padding: 3% 7% 0px 7%;
+    padding: 5% 15% 0px 15%;
 }
 
 .font-top{
@@ -72,6 +79,13 @@ hr{
 .avatar-image{
     max-width: 200px;
     max-height: 240px;
+}
+
+.img-check-custom{
+    margin-right: 2px;
+    margin-bottom: 170px;
+    max-width: 40px;
+    max-height:40px;
 }
 
 .button-custom {

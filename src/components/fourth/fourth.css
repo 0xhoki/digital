@@ -1,17 +1,24 @@
+@font-face {
+    font-family: 'Avenir-Book';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/font/avenir/AvenirLTStd-Book.otf');
+}
+
 .App {
     text-align: center;
-  }
+}
   
 
 .App4-header {
     background-image: url('./assets/image/bg.png');
     width: 100%;
     background-repeat: no-repeat;
-    padding: 3% 7% 0px 7%;
+    padding: 5% 15% 0px 15%;
 }
 
 .font-top{
-    font-family: "Helvetica";
+    font-family: "Avenir-Book";
     font-size: 12px;
     font-weight: bold;
     text-align: center;
@@ -28,7 +35,7 @@
 }
 
 .font-content-title{
-    font-family: "Helvetica";
+    font-family: "Avenir-Book";
     font-size: 36px;
     font-weight: bold;
     text-align: center;
@@ -37,7 +44,7 @@
 
 }
 .font-content-text{
-    font-family: "Helvetica";
+    font-family: "Avenir-Book";
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -77,7 +84,7 @@ hr{
 
 @media (max-width: 800px) {
     .font-content-title{
-        font-family: "Helvetica";
+        font-family: "Avenir-Book";
         font-size: 20px;
         font-weight: bold;
         text-align: center;
@@ -86,7 +93,7 @@ hr{
     
     }
     .font-content-text{
-        font-family: "Helvetica";
+        font-family: "Avenir-Book";
         font-size: 12px;
         font-weight: bold;
         text-align: center;

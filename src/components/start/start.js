@@ -31,7 +31,6 @@ class Start_page extends Component {
     return (
     (this.state.flag==1)?(
     
-
       <div>
         <div className = "App-header">
           <span>
@@ -113,11 +112,11 @@ class Start_page extends Component {
             <div className = "row row-custom-bottom">
               <div className = "row">
                 <div className = "col-md-1"></div>
-                <div className = "col-md-2 m-t-10"> <img src={image_footer_first}/> </div>
-                <div className = "col-md-2 m-t-10"><img src={image_footer_second}/></div>
-                <div className = "col-md-2 m-t-10"><img src={image_footer_third}/></div>
-                <div className = "col-md-2 m-t-10"><img src={image_footer_fourth}/></div>
-                <div className = "col-md-2 m-t-10 m-b-10"><img src={image_footer_fifth}/></div>
+                <div className = "col-md-2 m-t-10 "> <img className="bottom-img-custom" src={image_footer_first}/> </div>
+                <div className = "col-md-2 m-t-10 "><img className="bottom-img-custom" src={image_footer_second}/></div>
+                <div className = "col-md-2 m-t-10 "><img className="bottom-img-custom" src={image_footer_third}/></div>
+                <div className = "col-md-2 m-t-10 "><img className="bottom-img-custom" src={image_footer_fourth}/></div>
+                <div className = "col-md-2 m-t-10 m-b-10 "><img className="bottom-img-custom" src={image_footer_fifth}/></div>
                 <div className = "col-md-1"></div>
               </div>
             </div>

@@ -1,59 +1,47 @@
 import React, { Component } from 'react';
 
+import 'bootstrap/dist/css/bootstrap.css';
 
-
-import img_left from './assets/image/img_left.png'
-import img_right from './assets/image/img_right.png'
-
-
-import './sixth.css';
 import './common.css';
+import './sixth.css';
 
 
 
 class Sixth_page extends Component {
+
   render() {
-    
-    return (
-
-      <div className = "App">
-        <div className = "App-header">
-          <div className = "content-container">
-            <div className = "row">
-              <div className = "row"><p className = "font-third-title">Je BMI berekening resultaat</p></div>
-              <div className = "row"><p className = "font-third-second">We hebben al je parameters bekeken en opgenomen in onze berekening.
-                                        Je BMI IS X. Dit wil zeggen dat je …</p></div>
-              <div className = "row m-t-50">
-                <div className = "column col-sm-6">
-                  <button className = "button-custom">Start is breaking</button> 
-                </div>
-                <div className = "column col-sm-6">
-                  <button className = "button-custom">Start is breaking</button> 
-                </div>
-              </div>
+    return(     
+    <div className = "App">
+      <div className = "App-header">
+        <div className = "sixth-content-container">
+          <div className = "row">
+            <p className = "font-content-title">Schrijf je in en verlies gewicht</p>
+            <p className = "font-content-text">Sluit je aan bij meer dan 125.000 mannen en vrouwen. We sturen je een
+                                                maand lang tips en trics om je BMI onder controle te krijgen en toe
+                                                werken naar je gewenste gewicht.</p>
+          </div>
+          <div className = "row m-t-100">
+            <div className = "column col-sm-6">
+              <p className = "font-content-mini">Voornaam</p>
+              <input type="text" className = "custom-input-text" name="fname" placeholder="Sofie" />
             </div>
-            <div className = "row">
-              <div className = "column col-sm-4">
-                <img src={img_left}/> 
-              </div>
-              <div className = "column col-sm-8">
-
-              </div>
-            </div>
-            <div className = "row">
-              <div className = "column col-sm-4">
-
-              </div>
-              <div className = "column col-sm-8">
-
-              </div>
+            <div className = "column col-sm-6">
+              <p className = "font-content-mini">Achternaam</p>
+              <input type="text" className = "custom-input-text" name="fname" placeholder="Janssens"/>
             </div>
           </div>
+          <div className = "row m-t-20">
+            <div className = "column col-sm-6">
+              <p className = "font-content-mini">Achternaam</p>
+              <input type="text" className = "custom-input-text" name="fname" placeholder="Janssens"/>
+            </div>
+          </div>
+
         </div>
       </div>
-
+    </div>
     );
+
   }
 }
-
 export default Sixth_page;

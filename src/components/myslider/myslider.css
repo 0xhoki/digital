@@ -1,15 +1,5 @@
-
-.font-top{
-    font-family: "Helvetica";
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-.custom-center-pb{
-    background-color: transparent;
-    padding: 0px;
-    margin: 0px 5% 0px 5%;
-    border-radius: 100px;
+.custom-slider{
+    width: 100%;
+    margin: 20px;
+    height: 20px;
 }

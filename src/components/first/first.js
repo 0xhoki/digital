@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 
 
-import avatar_w from './assets/image/avatar_w.png'
-import avatar_m from './assets/image/avatar_m.png'
+import avatar_w_1 from './assets/image/avatar_w_1.png'
+import avatar_m_1 from './assets/image/avatar_m_1.png'
+import avatar_w_2 from './assets/image/avatar_w_2.png'
+import avatar_m_2 from './assets/image/avatar_m_2.png'
+import img_check from './assets/image/ic_check.png'
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -17,12 +20,14 @@ class First_page extends Component {
   constructor(props){
     super(props);
     this.state = {
-      flag1:1
+      flag1:1,
+      person_change_flag:0
     }
   }
 
   render() {
     return(
+     
     (this.state.flag1 == 1) ? (      <div className = "App">
     <div className = "App-header">
       <div className = "container">
@@ -41,7 +46,17 @@ class First_page extends Component {
             </div>
             <div className = "row m-t-50">
               <div className = "col-md-5">
-                <div className = "row"> <img className = "avatar-image" alt="Smiley face" src={avatar_w} /> </div>
+                
+                <div className = "row"> 
+                  <img className = "avatar-image" 
+                onClick = {()=>{
+                  if(this.state.person_change_flag !=1)
+                    this.setState({person_change_flag:(this.state.person_change_flag+1)%2})}
+                  }
+                 alt="Smiley face" src={this.state.person_change_flag==0? avatar_w_2:avatar_w_1} /> 
+                 <img className = "img-check-custom" src={ this.state.person_change_flag==1 ? img_check: ""} />
+                 
+                 </div>
                 <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is�naar de berekening en resultaat van haar BMI</p> </div>
               </div>
 
@@ -50,7 +65,19 @@ class First_page extends Component {
               </div>
 
               <div className = "col-md-5">
-                <div className = "row"> <img className = "avatar-image" alt="Smiley face" src={avatar_m} /> </div>
+                
+                <div className = "row"> 
+                  <img className = "avatar-image" 
+                onClick = { 
+                  ()=>{
+                    if(this.state.person_change_flag !=0)
+                      this.setState( {person_change_flag:(this.state.person_change_flag+1)%2} )
+                    } 
+                  }
+                alt="Smiley face" src={ this.state.person_change_flag==0 ? avatar_m_1: avatar_m_2} /> 
+                    <img className = "img-check-custom" src={ this.state.person_change_flag==0 ? img_check: ""} />
+                
+                </div>
                 <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een man die nieuwsgierig is naar de berekening en resultaat van zijn BMI</p> </div>
               </div>                  
             </div>

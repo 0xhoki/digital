@@ -7,13 +7,9 @@
 
 .App-header {
   background-image: url('./assets/image/bg.png');
-
-  height: 800px;
+  width: 100%;
   background-repeat: no-repeat;
-  z-index: -1;
-  background-size: 100%;
-  display: inline-back;
-
+  padding: 5% 15% 0px 15%;
 }
 
 
@@ -147,7 +143,7 @@ img{
   border-radius: 20px;
   display: inline-back;
   margin: 50px -15px 169px -15px !important;
-  padding: 58px 178px 57px 179px; 
+  padding: 30px; 
 }
 
 .column-custom-bottom{
@@ -183,6 +179,7 @@ img{
     font-weight: lighter;
     font-family: "Avenir-Book";
   }
+
 }
 
 
@@ -195,4 +192,11 @@ img{
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+.bottom-img-custom{
+
+  max-height: 35px;
+  max-width: 80px;
+
 }
