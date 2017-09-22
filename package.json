@@ -11,10 +11,10 @@
     "react-scripts": "1.0.13"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "babel src -d lib",
-    "test": "jest",
-    "eject": "react-scripts eject"
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
