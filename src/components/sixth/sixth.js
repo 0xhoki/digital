@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.css';
-
-import './common.css';
 import './sixth.css';
 
 

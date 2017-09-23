@@ -13,8 +13,6 @@ import image_footer_fourth from './assets/image/footer-fourth.png'
 import image_footer_fifth from './assets/image/footer-fifth.png'
 
 import './start.css';
-import './common.css';
-
 import First_page from '../first/first';
 
 
@@ -53,63 +51,61 @@ class Start_page extends Component {
             </Navbar>
           </span>
 
-          <div className = "container">
-            <div className = "row m-l-50">
-              <p className = "font-second">BMI berekenen voor vrouwen, mannen en kinderen.</p>
+          <div>
+            <div className = "m-l-100 m-t-100">
+              <p className = "font-second m-l-100">BMI berekenen voor vrouwen, mannen en kinderen.</p>
+              <div className = "m-l-100 m-t-30">
+                <button className = "button-custom" onClick={ ()=>{this.setState({flag:2})}}>Start is breaking</button>
+              </div>
             </div>
-            <div className = "row m-l-50">
-              <button className = "button-custom" onClick={ ()=>{this.setState({flag:2})}}>Start is breaking</button> 
-          
-            </div>
 
-            <div className = "row m-t-50">
-              <div className = "content-container">
-                    <div className = "row row-custom">
-                      <div className = "column col-sm-5 row-custom-center">
-                        <img clasName = "img-one" src={image_third_first}/> 
-                      </div>
+            <div className = "m-t-100 content-margin ">
+              <div className = "content-container-start">
+                <div className = "row">
+                  <div className = "column col-sm-4 p-l-50">
+                    <img clasName = " img-one" src={image_third_first}/> 
+                  </div>
+                  <div className = "column col-sm-8">
+                    <p className = "title-one">WAT IS BMI EN HOE MOET JE DE RESULATEN LEZEN?</p>
+                    <p className = "m-t-30 title-two">De BMI of Body Mass Index is een  eenvoudige manier om te berekenen 
+                                                        of je gewicht gezond is in verhouding met je lengte, leeftijd en geslacht.
+                                                        Via deze site kan je eenvoudig berekenen of je wel gezond bezig bent.</p>
+                  </div>
+                </div>
 
-                      <div className = "column col-sm-7">
-                        <p className = "font-third-one">WAT IS BMI EN HOE MOET JE DE RESULATEN LEZEN?</p>
-                        <p className = "font-third-second">De BMI of Body Mass Index is een  eenvoudige manier om te berekenen 
-                                                            of je gewicht gezond is in verhouding met je lengte, leeftijd en geslacht.
-                                                            Via deze site kan je eenvoudig berekenen of je wel gezond bezig bent.</p>
-                      </div>
-                    </div>
-                    <div className = "row row-custom">
 
-                      <div className = "col-sm-5 row-custom-center">
-                        <img className = "img-two" src={image_third_second}/> 
-                      </div>
+                <div className = "row m-t-100">
+                  <div className = "col-sm-4 p-r-50">
+                    <img src={image_third_second}/> 
+                  </div>
+                  <div className = "col-sm-8">
+                    <p className = "title-one">HOE BEREKENEN WE JE BMI EN OP BASIS VAN WAT?</p>
+                    <p className = "m-t-30 title-two">De Quetelet-index of BMI-index geeft het gewicht in verhouding tot de
+                                                      lengte van een persoon weer in één cijfer. Voor volwassenen duidt een
+                                                      cijfer minder dan 18,5 op ondergewicht en meer dan 25 is er overgewicht
+                                                      en vanaf 30 zwaar overgewicht of obesitas. De berekeningsmethode
+                                                      verschilt licht voor mannen en vrouwen en kinderen. De BMI doet wel
+                                                      geen uitspraken over de hoeveelheid vet in het lichaam.</p>
+                  </div>
+                </div>
 
-                      <div className = "column col-sm-7">
-                        <p className = "font-third-one">HOE BEREKENEN WE JE BMI EN OP BASIS VAN WAT?</p>
-                        <p className = "font-third-second">De Quetelet-index of BMI-index geeft het gewicht in verhouding tot de
-                                                          lengte van een persoon weer in één cijfer. Voor volwassenen duidt een
-                                                          cijfer minder dan 18,5 op ondergewicht en meer dan 25 is er overgewicht
-                                                          en vanaf 30 zwaar overgewicht of obesitas. De berekeningsmethode
-                                                          verschilt licht voor mannen en vrouwen en kinderen. De BMI doet wel
-                                                          geen uitspraken over de hoeveelheid vet in het lichaam.</p>
-                      </div>
-                    </div>
-                    <div className = "row row-custom">
-                      <div className = "column col-sm-5 row-custom-center" >
-                        <img className = "img-three" src={image_third_third} alt="Smiley face" /> 
-                      </div>
-
-                      <div className = "column col-sm-7">
-                        <p className = "font-third-one">HOE ACTIE ONDERNEMEN BIJ EEN TE HOOG BMI?</p>
-                        <p className = "font-third-second">Deze website berekent je BMI gratis en snel als je volgende gegevens
-                                                          invult: lengte, gewicht, leeftijd en geslacht. Wanneer je Body Mass Index
-                                                          te hoog of te laag blijkt te zijn, is het verstandig een arts te raadplegen.
-                                                          Op eigen houtje beginnen diëten is ongezond en zelfs gevaarlijk.</p>
-                      </div>                    
-                    </div>
+                <div className = "row m-t-100">
+                  <div className = "column col-sm-4 p-l-50" >
+                    <img className = "img-one" src={image_third_third} alt="Smiley face" /> 
+                  </div>
+                  <div className = "col-sm-8">
+                    <p className = "title-one">HOE ACTIE ONDERNEMEN BIJ EEN TE HOOG BMI?</p>
+                    <p className = "m-t-30 title-two">Deze website berekent je BMI gratis en snel als je volgende gegevens
+                                                      invult: lengte, gewicht, leeftijd en geslacht. Wanneer je Body Mass Index
+                                                      te hoog of te laag blijkt te zijn, is het verstandig een arts te raadplegen.
+                                                      Op eigen houtje beginnen diëten is ongezond en zelfs gevaarlijk.</p>
+                  </div>                    
+                </div>
               </div>
             </div>
 
 
-            <div className = "row row-custom-bottom">
+            <div className = "row-custom-bottom m-t-50 m-b-100">
               <div className = "row">
                 <div className = "col-md-1"></div>
                 <div className = "col-md-2 m-t-10 "> <img className="bottom-img-custom" src={image_footer_first}/> </div>

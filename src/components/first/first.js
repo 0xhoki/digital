@@ -8,8 +8,6 @@ import avatar_m_2 from './assets/image/avatar_m_2.png'
 import img_check from './assets/image/ic_check.png'
 
 import 'bootstrap/dist/css/bootstrap.css';
-
-import './common.css';
 import './first.css';
 
 import Second_page from '../second/second';

@@ -5,8 +5,6 @@ import avatar_w from './assets/image/avatar_w.png'
 import avatar_m from './assets/image/avatar_m.png'
 
 import 'bootstrap/dist/css/bootstrap.css';
-
-import './common.css';
 import './fourth.css';
 
 import Mytopprogressbar from '../mytoppb/mytoppb';
@@ -18,13 +16,13 @@ class Fourth_page extends Component {
   constructor(props){
     super(props);
     this.state={
-      flag4:1
+      flag4:0
     }
   }  
   render() {
 
     return (
-      (this.state.flag==1)?(
+      (this.state.flag4==0)?(
 
       <div className = "App">
         <div className = "App-header">
@@ -47,7 +45,7 @@ class Fourth_page extends Component {
                 </div>
 
                 <div className = "row m-t-100">
-                  <button className = "button-custom" onClick={ ()=>{this.setState({flag4:2})}}>Volgende stap</button> 
+                  <button className = "button-custom" onClick={ ()=>{this.setState({flag4:1})}}>Volgende stap</button> 
                 </div>
 
               </div>

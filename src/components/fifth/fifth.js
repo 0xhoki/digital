@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 
 import img_left from './assets/image/img_left.png'
 import img_right from './assets/image/img_right.png'
-
-
 import './fifth.css';
-import './common.css';
 
 import Sixth_page from '../sixth/sixth';
 import Second_page from '../second/second';

@@ -5,8 +5,6 @@ import avatar_w from './assets/image/avatar_w.png'
 import avatar_m from './assets/image/avatar_m.png'
 
 import 'bootstrap/dist/css/bootstrap.css';
-
-import './common.css';
 import './third.css';
 
 import Mytopprogressbar from '../mytoppb/mytoppb';
