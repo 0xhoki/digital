@@ -40,22 +40,13 @@
 }
 
 .font-top-right{
-  font-family: "Avenir-Book";
   font-size: 12px;
   font-weight: lighter;
   text-align: center;
   letter-spacing: 1px;
   color: white !important;
 }
-.font-second{
-  max-width: 672px;
-  font-family: "Avenir-Book";
-  font-size: 48px;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  color: white;
-  text-align: left;
-}
+
 
 .content-container-start{
   background-color: white;
@@ -85,23 +76,6 @@
   font-family: "Avenir-Book";
 }
 
-.title-one{
-  font-size: 18px;
-  font-weight: lighter;
-  letter-spacing: 1.0;
-  max-width: 500px;
-  color: #5C6373;
-  text-align: left;
-}
-
-.title-two{
-  max-width: 530px;
-  font-size: 16px;
-  font-weight: lighter;
-  letter-spacing: 0.5;
-  color: #7a8599;
-  text-align: left;
-}
 .col-sm-4.column{
   float: right;
 }
@@ -111,7 +85,7 @@
   width:90%;
 }
 img{
-  width: 80%;
+  width: 90%;
 }
 .row-custom-bottom{
   background-color: #F2F4F7;
@@ -130,12 +104,53 @@ img{
   float: left;
   width: 20%;
 }
-
-
-@media (max-width: 800px) {
-  .font-second{
+@media screen and (max-width: 1920px){
+  .title-one{
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1.0;
+    max-width: 500px;
+    color: #5C6373;
+    text-align: left;
+  }
+  
+  .title-two{
+    max-width: 530px;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 0.5;
+    color: #7a8599;
+    text-align: left;
+  }
+  .title-second{
     max-width: 672px;
-    font-family: "Avenir-Book";
+    font-size: 48px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .title-one{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1.0;
+    max-width: 500px;
+    color: #5C6373;
+    text-align: left;
+  }
+  
+  .title-two{
+    max-width: 530px;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 0.5;
+    color: #7a8599;
+    text-align: left;
+  }
+  .title-second{
+    max-width: 400px;
     font-size: 24px;
     font-weight: lighter;
     letter-spacing: 1px;
@@ -154,10 +169,36 @@ img{
     text-align: center;
     text-decoration: none;
     font-weight: lighter;
-    font-family: "Avenir-Book";
   }
-
 }
+@media only screen and (max-width: 500px){
+  .title-one{
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 1.0;
+    max-width: 500px;
+    color: #5C6373;
+    text-align: left;
+  }
+  
+  .title-two{
+    max-width: 530px;
+    font-size: 8px;
+    font-weight: lighter;
+    letter-spacing: 0.5;
+    color: #7a8599;
+    text-align: left;
+  }
+  .title-second{
+    max-width: 240px;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+    text-align: left;
+  }
+}
+
 
 
 .featurette-divider {
@@ -176,7 +217,4 @@ img{
   max-height: 35px;
   max-width: 80px;
 
-}
-.bottom-item-style{
-  
 }

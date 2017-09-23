@@ -53,7 +53,7 @@ class Start_page extends Component {
 
           <div>
             <div className = "m-l-100 m-t-100">
-              <p className = "font-second m-l-100">BMI berekenen voor vrouwen, mannen en kinderen.</p>
+              <p className = "title-second m-l-100">BMI berekenen voor vrouwen, mannen en kinderen.</p>
               <div className = "m-l-100 m-t-30">
                 <button className = "button-custom" onClick={ ()=>{this.setState({flag:2})}}>Start is breaking</button>
               </div>
