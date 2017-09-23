@@ -3,11 +3,14 @@
   }
   
 
+
 .App-header {
     background-image: url('./assets/image/bg.png');
     width: 100%;
+    height: 600px;
     background-repeat: no-repeat;
-    padding: 5% 15% 0px 15%;
+    padding: 5% 15% 50px 15%;
+     
 }
 
 
@@ -18,7 +21,7 @@
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
 
-    padding: 100px 18% 50px 18% !important;
+    padding: 100px 20% 50px 20% !important;
 }
 
 .font-content-title{
@@ -52,7 +55,17 @@
     border-radius: 10px;
     background-color: #F2F4F7;
     border: none;
-    height: 50px;
+    height: 56px;
+    text-indent: 25px;
+}
+.custom-text-area{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #F2F4F7;
+    border: none;
+    height: 112px;
+    text-indent: 25px;
+    padding-bottom: 56px;
 }
 .btn-custom {
     background-color: #FF7D7D;
@@ -71,24 +84,6 @@
 }
 
 
-hr{ 
-      border:         none;
-      border-left:    1px solid #F2F4F7;
-      height:         10vh;
-      width:          1px;       
-
- }
-.avatar-image{
-    max-width: 200px;
-    max-height: 240px;
-}
-
-.img-check-custom{
-    margin-right: 2px;
-    margin-bottom: 170px;
-    max-width: 40px;
-    max-height:40px;
-}
 
 .button-custom {
     background-color: #FF7D7D;

@@ -45,7 +45,7 @@ class Start_page extends Component {
                   <NavItem eventKey={2}> <a className = "font-top-right" href="#">CALCULATORS </a></NavItem>
                   <NavItem eventKey={3}> <a className = "font-top-right" href="#">TEAM</a></NavItem>
                   <NavItem eventKey={4}> <a className = "font-top-right" href="#">OVER ONS</a></NavItem>
-                  <NavItem eventKey={5}> <a className = "font-top-right" href="#">CONTACTEER ONS</a></NavItem>
+                  <NavItem eventKey={5}> <a className = "font-top-right p-r-40" href="#">CONTACTEER ONS</a></NavItem>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
