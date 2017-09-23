@@ -108,11 +108,11 @@ class Start_page extends Component {
             <div className = "row-custom-bottom m-t-50 m-b-100">
               <div className = "row">
                 <div className = "col-md-1"></div>
-                <div className = "col-md-2 m-t-10 "> <img className="bottom-img-custom" src={image_footer_first}/> </div>
-                <div className = "col-md-2 m-t-10 "><img className="bottom-img-custom" src={image_footer_second}/></div>
-                <div className = "col-md-2 m-t-10 "><img className="bottom-img-custom" src={image_footer_third}/></div>
-                <div className = "col-md-2 m-t-10 "><img className="bottom-img-custom" src={image_footer_fourth}/></div>
-                <div className = "col-md-2 m-t-10 m-b-10 "><img className="bottom-img-custom" src={image_footer_fifth}/></div>
+                <div className = "col-md-2 margin-auto">               <img className="bottom-img-custom" src={image_footer_first}/> </div>
+                <div className = "col-md-2 margin-auto">               <img className="bottom-img-custom" src={image_footer_second}/></div>
+                <div className = "col-md-2 margin-auto">               <img className="bottom-img-custom" src={image_footer_third}/></div>
+                <div className = "col-md-2 margin-auto m-t-10 ">       <img className="bottom-img-custom" src={image_footer_fourth}/></div>
+                <div className = "col-md-2 margin-auto m-t-10 m-b-10 "><img className="bottom-img-custom" src={image_footer_fifth}/></div>
                 <div className = "col-md-1"></div>
               </div>
             </div>
