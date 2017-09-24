@@ -1,5 +1,14 @@
 .custom-slider{
     width: 100%;
-    margin: 20px;
+    margin: 20px 100px 20px 100px;
+    height: 40px;
+}
+.custom-handle{
+    width: 20px;
     height: 20px;
+}
+
+.tooltip-custom{
+    width: 150px;
+    height: 50px;
 }

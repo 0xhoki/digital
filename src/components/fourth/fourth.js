@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 
-
-import avatar_w from './assets/image/avatar_w.png'
-import avatar_m from './assets/image/avatar_m.png'
-
 import 'bootstrap/dist/css/bootstrap.css';
-
-import './fourth.css';
 
 import Mytopprogressbar from '../mytoppb/mytoppb';
 import Mysliderbar from '../myslider/myslider';
@@ -23,7 +17,7 @@ class Fourth_page extends Component {
   render() {
 
     return (
-      (this.state.flag4==0)?(
+      (this.state.flag4===0)?(
 
       <div className = "App">
         <div className = "App-header">
@@ -36,12 +30,12 @@ class Fourth_page extends Component {
               <div className = "first-content-container">
                 <div className = "row">
                   <p className = "font-content-title">Je BMI berekenen we op basis van je lengte</p>
-                  <p className = "font-content-text m-t-30 m-l-50 m-r-50">Het berekenen van het BMI van een man of vrouw is niet anderes in
+                  <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
                                                             de berekening of parameters, enkel in het lezen en interpreteren van
                                                             de resulaten.</p>
                 </div>
                 <div className = "row m-t-100">
-                  <div > <Mysliderbar /> </div>
+                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar value_input = "4"/> </div>
                 </div>
 
                 <div className = "row m-t-100">

@@ -18,13 +18,13 @@ class Fifth_page extends Component {
   }  
   render() { 
     
-    if(this.state.button_flag == 0){
+    if(this.state.button_flag === 0){
       return (
         
               <div className = "App">
                 <div className = "App-fifth-header">
                   <div className = "first-content-container m-b-50">
-                    <div className = "row">
+                    <div className = "row"> 
                       <div className = "row m-l-50 m-r-50"><p className = "font-third-title">Je BMI berekening resultaat</p></div>
                       <div className = "row m-l-20 m-r-20"><p className = "font-third-second">We hebben al je parameters bekeken en opgenomen in onze berekening.
                                                 Je BMI IS X. Dit wil zeggen dat je …</p></div>
@@ -33,7 +33,7 @@ class Fifth_page extends Component {
                         <div className = "column col-sm-6" >
                           <button onClick = 
                           { ()=>{
-                            if(this.state.button_flag != 1)
+                            if(this.state.button_flag !== 1)
                               this.setState({button_flag:1}
                             )}
                           }
@@ -42,7 +42,7 @@ class Fifth_page extends Component {
 
                         <div className = "column col-sm-6" >
                           <button onClick = {()=>{
-                            if(this.state.button_flag !=2)
+                            if(this.state.button_flag !==2)
                               this.setState({button_flag:2}                        
                             )}} className = "button-custom-deactive">Opnieuw Berekenen</button> 
                         </div> 
@@ -50,7 +50,7 @@ class Fifth_page extends Component {
 
                     <div className = "row m-t-70 cutsom-left-flex ">
                       <div className = "column col-sm-4 ">
-                        <img className = "img-fifth-left" src={img_left}/>
+                        <img className = "img-fifth" src={img_left}/>
                       </div>
                       <div className = "column col-sm-8 m-t-20 ">
                         <p className = "font-third-one ">WAAROM IS MIJN BMI BELANGRIJK?</p>
@@ -69,18 +69,17 @@ class Fifth_page extends Component {
                           lichaam nog beter in kaart te brengen. Klik op deze link om terug naar de home pagete gaan.</p>
                       </div>
                       <div className = "column col-sm-4 ">
-                        <img className = "img-fifth-right" src={img_right}/>
+                        <img className = "img-fifth" src={img_right}/>
                       </div>
                     </div>
          
-          
                   </div>
                 </div>
               </div>
         
             );      
     }
-    else if(this.state.button_flag == 1){
+    else if(this.state.button_flag === 1){
         return (
           <div> <Sixth_page /> </div>
         );

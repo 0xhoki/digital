@@ -13,16 +13,6 @@
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
   padding: 100px 10% 50px 10% ;
 }
-
-.App-intro {
-  font-size: large;
-
-}
-.m-l-add-100{
-  margin-left: -70px;
-  margin-right: -70px;
-}
-
 .button-custom-active {
   background-color: #FF7D7D;
   border-radius: 100px;
@@ -38,7 +28,6 @@
   font-weight: lighter;
   font-family: "Avenir-Book";
 }
-
 .button-custom-deactive {
   background-color: #F2F4F7;
   border-radius: 100px;
@@ -61,8 +50,7 @@
   font-weight: lighter;
   letter-spacing: 1px;
   color: #7a8599;
-}
-
+} 
 .font-third-one{
   font-family: "Avenir-Book";
   font-size: 18px;
@@ -71,28 +59,18 @@
   color: #5C6373;
 
 }
-
 .font-third-second{
   font-family: "Avenir-Book";
   font-size: 16px;
   font-weight: lighter;
   letter-spacing: 1px;
-  color: #7a8599;
+  color: #7A8599;
   text-align: left;
 
 }
-
-.img-fifth-right{
+.img-fifth{
   width: 210px;
   height: 210px;
-}
-.img-fifth-left{
-  width: 90;
-
-}
-
-.custom-border{
-  border: 2px solid #000000;
 }
 @media (max-width: 800px) {
   .font-second{
@@ -167,4 +145,63 @@
   justify-content:         center;
   -webkit-justify-content: center;       /* Safari 8 */
   padding: 0px;
+}
+@media (max-width: 320px) {
+  .button-custom-active {
+    background-color: #FF7D7D;
+    border-radius: 100px;
+    border: none;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+  
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: "Avenir-Book";
+
+    margin-bottom: 20px;
+  }
+  
+  .button-custom-deactive {
+    background-color: #F2F4F7;
+    border-radius: 100px;
+    border: none;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+  
+  
+    font-size: 10px;
+    color: #C2C5CC;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: "Avenir-Book";
+  }
+  .img-fifth{
+    width: 140px;
+    height: 140px;
+  }
+  .font-third-title{
+    font-family: "Avenir-Book";
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #7a8599;
+  }
+  
+ 
+  
+  .font-third-second{
+    font-family: "Avenir-Book";
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #7A8599;
+    text-align: left;
+  
+  }
 }

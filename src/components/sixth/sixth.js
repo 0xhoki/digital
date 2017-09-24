@@ -17,7 +17,7 @@ class Sixth_page extends Component {
             <p className = "font-content-text">Sluit je aan bij meer dan 125.000 mannen en vrouwen. We sturen je een
                                                 maand lang tips en trics om je BMI onder controle te krijgen en toe
                                                 werken naar je gewenste gewicht.</p>
-          </div>
+          </div> 
           <div className = "row m-t-100">
             <div className = "column col-sm-6">
               <p className = "font-content-mini">Voornaam</p>
@@ -33,7 +33,7 @@ class Sixth_page extends Component {
               <p className = "font-content-mini">E-mail</p>
               <input type="text" className = "custom-input-text" name="fname" placeholder="sofie@getfit.com"/>
             </div>
-          </div>
+          </div> 
 
           <div className = "row m-t-20">
             <div className = "column col-sm-6">
@@ -49,7 +49,7 @@ class Sixth_page extends Component {
           <div className = "row m-t-20">
             <div className = "column col-sm-12">
               <p className = "font-content-mini">Motivatie</p>
-              <input type="text" className = "custom-text-area" name="fname" placeholder="Jouw persoonlijke motivatie om gewicht te verliezen"/>
+              <textarea rows="3" className = "custom-text-area" name="fname" placeholder="Jouw persoonlijke motivatie om gewicht te verliezen"/>
             </div>
           </div>
 

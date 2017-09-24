@@ -63,7 +63,7 @@ class Start_page extends Component {
               <div className = "content-container-start">
                 <div className = "row">
                   <div className = "column col-sm-4 p-l-50">
-                    <img clasName = " img-one" src={image_third_first}/> 
+                    <img src={image_third_first}/> 
                   </div>
                   <div className = "column col-sm-8">
                     <p className = "title-one">WAT IS BMI EN HOE MOET JE DE RESULATEN LEZEN?</p>
@@ -91,7 +91,7 @@ class Start_page extends Component {
 
                 <div className = "row m-t-100">
                   <div className = "column col-sm-4 p-l-50" >
-                    <img className = "img-one" src={image_third_third} alt="Smiley face" /> 
+                    <img src={image_third_third} alt="Smiley face" /> 
                   </div>
                   <div className = "col-sm-8">
                     <p className = "title-one">HOE ACTIE ONDERNEMEN BIJ EEN TE HOOG BMI?</p>

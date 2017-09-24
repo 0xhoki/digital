@@ -1,5 +1,4 @@
 
-
 .sixth-content-container{
     background-color: white;
     width: 100%;
@@ -8,11 +7,9 @@
 
     padding: 100px 20% 50px 20% !important;
 }
-
 .font-content-title{
     font-family: "Avenir-Book";
     font-size: 36px;
-    font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
     color: #5C6373;
@@ -21,18 +18,15 @@
 .font-content-text{
     font-family: "Avenir-Book";
     font-size: 16px;
-    font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
-    color: #5C6373;
+    color: #7A8599;
 }
 .font-content-mini{
-    font-family: "Avenir-Book";
     font-size: 12px;
-    font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
-    color: #5C6373;
+    color: #C2C5CC;
     text-align: left;
 }
 .custom-input-text{
@@ -41,7 +35,8 @@
     background-color: #F2F4F7;
     border: none;
     height: 56px;
-    text-indent: 25px;
+    padding-left: 20px;
+    color: #7A8599;
 }
 .custom-text-area{
     width: 100%;
@@ -49,28 +44,10 @@
     background-color: #F2F4F7;
     border: none;
     height: 112px;
-    text-indent: 25px;
-    padding-bottom: 56px;
+    padding: 10px 10px 10px 20px;
+    color: #7A8599;
 }
-.btn-custom {
-    background-color: #FF7D7D;
-    border-radius: 100px;
-    border: none;
-    display: inline-block;
-    width: 244px;
-    height: 60px;
-  
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "Avenir-Book";
-}
-
-
-
-.button-custom {
+.first-button-custom {
     background-color: #FF7D7D;
     border-radius: 100px;
     border: none;
@@ -86,23 +63,61 @@
     font-weight: lighter;
     font-family: "Avenir-Book";
 }
-
 @media (max-width: 800px) {
     .font-content-title{
         font-family: "Avenir-Book";
         font-size: 20px;
-        font-weight: bold;
         text-align: center;
         letter-spacing: 1px;
         color: #5C6373;
-    
+  
     }
     .font-content-text{
         font-family: "Avenir-Book";
         font-size: 12px;
-        font-weight: bold;
         text-align: center;
         letter-spacing: 1px;
         color: #5C6373;
     }
+  }
+
+ @media (max-width: 320px) {
+
+    .first-button-custom {
+        background-color: #FF7D7D;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        width: 120px;
+        height: 30px;
+        margin: 0px 0px 0px 0px !important;
+      
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: lighter;
+        font-family: "Avenir-Book";
+    }
+    .custom-input-text{
+        width: 100%;
+        border-radius: 10px;
+        background-color: #F2F4F7;
+        border: none;
+        height: 36px;
+        padding: 6px;
+        color: #7A8599;
+        font-size: 12px;
+    }
+    .custom-text-area{
+        width: 100%;
+        border-radius: 10px;
+        background-color: #F2F4F7;
+        border: none;
+        height: 72px;
+        padding: 6px;
+        font-size: 12px;
+        color: #7A8599;
+    }
+
   }

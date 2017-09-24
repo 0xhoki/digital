@@ -3,8 +3,7 @@ import './mytoppb.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
-
-import Progress from 'react-progressbar';
+// import Progress from 'react-progressbar';
 
 class Mytopprogressbar extends Component {
 

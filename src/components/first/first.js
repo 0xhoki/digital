@@ -8,7 +8,6 @@ import avatar_m_2 from './assets/image/avatar_m_2.png'
 import img_check from './assets/image/ic_check.png'
 
 import 'bootstrap/dist/css/bootstrap.css';
-
 import './first.css';
 
 import Second_page from '../second/second';
@@ -26,7 +25,7 @@ class First_page extends Component {
 
   render() {
     return(
-    (this.state.flag1 == 1) ? (      <div className = "App">
+    (this.state.flag1 === 1) ? (      <div className = "App">
 
     <div className = "App-header">
       <div className = "row p-l-100 p-r-100" >
@@ -38,7 +37,7 @@ class First_page extends Component {
           <div className = "first-content-container">
             <div className = "row">
               <p className = "font-content-title">BMI berekenen begint bij je geslacht</p>
-              <p className = "font-content-text m-t-30">Het berekenen van het BMI van een man of vrouw is niet anderes in
+              <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
                                                   de berekening of parameters, enkel in het lezen en interpreteren van
                                                   de resulaten.</p>
             </div>
@@ -48,14 +47,14 @@ class First_page extends Component {
                 <div className = "row"> 
                   <img className = "avatar-image" 
                 onClick = {()=>{
-                  if(this.state.person_change_flag !=1)
+                  if(this.state.person_change_flag !==1)
                     this.setState({person_change_flag:(this.state.person_change_flag+1)%2})}
                   }
-                 alt="Smiley face" src={this.state.person_change_flag==0? avatar_w_2:avatar_w_1} /> 
-                 <img className = "img-check-custom custom-z-index-right" src={ this.state.person_change_flag==1 ? img_check: ""} />
+                 src={this.state.person_change_flag===0? avatar_w_2:avatar_w_1} /> 
+                 <img className = "img-check-custom custom-z-index-right"  src={ this.state.person_change_flag===1 ? img_check: ""} />
                  
                  </div>
-                <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is�naar de berekening en resultaat van haar BMI</p> </div>
+                <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is naar de berekening en resultaat van haar BMI</p> </div>
               </div>
 
               <div className = "col-md-2">
@@ -68,12 +67,12 @@ class First_page extends Component {
                   <img className = "avatar-image" 
                 onClick = { 
                   ()=>{
-                    if(this.state.person_change_flag !=0)
+                    if(this.state.person_change_flag !==0)
                       this.setState( {person_change_flag:(this.state.person_change_flag+1)%2} )
                     } 
                   }
-                alt="Smiley face" src={ this.state.person_change_flag==0 ? avatar_m_1: avatar_m_2} /> 
-                    <img className = "img-check-custom custom-z-index-right" src={ this.state.person_change_flag==0 ? img_check: ""} />
+                 src={ this.state.person_change_flag===0 ? avatar_m_1: avatar_m_2} /> 
+                    <img className = "img-check-custom custom-z-index-right" src={ this.state.person_change_flag===0 ? img_check: ""} />
                 
                 </div>
                 <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een man die nieuwsgierig is naar de berekening en resultaat van zijn BMI</p> </div>
