@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Avenir-Book';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/assets/font/avenir/AvenirLTStd-Book.otf');
-}
 .App {
     text-align: center;
 }

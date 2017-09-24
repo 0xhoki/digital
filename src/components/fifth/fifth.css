@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Avenir-Book';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/assets/font/avenir/AvenirLTStd-Book.otf');
-}
-.App{
-  text-align: center;
-}
 .App-fifth-header {
   background-image: url('./assets/image/bg_yellow.png');
   width: 100%;
@@ -96,13 +87,8 @@
   height: 210px;
 }
 .img-fifth-left{
-  width: 210px;
-  height: 210px;
+  width: 90;
 
-}
-
-.col-sm-4.column{
-  width: 240px; 
 }
 
 .custom-border{

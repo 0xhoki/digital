@@ -5,7 +5,6 @@ import img_right from './assets/image/img_right.png'
 
 
 import './fifth.css';
-import './common.css';
 
 import Sixth_page from '../sixth/sixth';
 import Second_page from '../second/second';
