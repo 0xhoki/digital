@@ -52,7 +52,6 @@
   color: #7a8599;
 } 
 .font-third-one{
-  font-family: "Avenir-Book";
   font-size: 18px;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -60,17 +59,25 @@
 
 }
 .font-third-second{
-  font-family: "Avenir-Book";
   font-size: 16px;
   font-weight: lighter;
   letter-spacing: 1px;
   color: #7A8599;
   text-align: left;
-
+}
+.center-font-third-second{
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #7A8599;
+  text-align: center;
 }
 .img-fifth{
   width: 210px;
   height: 210px;
+}
+.col-sm-4.column1{
+  width: 240px; 
 }
 @media (max-width: 800px) {
   .font-second{
@@ -128,6 +135,7 @@
     font-family: "Avenir-Book";
   }
 }
+
 .cutsom-left-flex{
   display:                 flex;
   display:                 -webkit-flex; /* Safari 8 */

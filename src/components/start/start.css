@@ -96,60 +96,7 @@ img{
   float: left;
   width: 20%;
 }
-@media screen and (max-width: 1920px){
-  .title-one{
-    font-size: 18px;
-    font-weight: lighter;
-    letter-spacing: 1.0;
-    max-width: 500px;
-    color: #5C6373;
-    text-align: left;
-  }
-  
-  .title-two{
-    max-width: 530px;
-    font-size: 16px;
-    font-weight: lighter;
-    letter-spacing: 0.5;
-    color: #7a8599;
-    text-align: left;
-  }
-  .title-second{
-    max-width: 672px;
-    font-size: 48px;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    color: white;
-    text-align: left;
-  }
-}
 @media screen and (max-width: 1200px) {
-  .title-one{
-    font-size: 14px;
-    font-weight: lighter;
-    letter-spacing: 1.0;
-    max-width: 500px;
-    color: #5C6373;
-    text-align: left;
-  }
-  
-  .title-two{
-    max-width: 530px;
-    font-size: 12px;
-    font-weight: lighter;
-    letter-spacing: 0.5;
-    color: #7a8599;
-    text-align: left;
-  }
-  .title-second{
-    max-width: 400px;
-    font-size: 24px;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    color: white;
-    text-align: left;
-  }
-
   .button-custom {
     background-color: #FF7D7D;
     border-radius: 100px;
@@ -163,35 +110,6 @@ img{
     font-weight: lighter;
   }
 }
-@media only screen and (max-width: 500px){
-  .title-one{
-    font-size: 10px;
-    font-weight: lighter;
-    letter-spacing: 1.0;
-    max-width: 500px;
-    color: #5C6373;
-    text-align: left;
-  }
-  
-  .title-two{
-    max-width: 530px;
-    font-size: 8px;
-    font-weight: lighter;
-    letter-spacing: 0.5;
-    color: #7a8599;
-    text-align: left;
-  }
-  .title-second{
-    max-width: 240px;
-    font-size: 12px;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    color: white;
-    text-align: left;
-  }
-}
-
-
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
