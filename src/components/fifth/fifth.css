@@ -50,7 +50,14 @@
   font-weight: lighter;
   letter-spacing: 1px;
   color: #7a8599;
-} 
+}
+.center-font-third-second{
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #7A8599;
+  text-align: center;
+}
 .font-third-one{
   font-size: 18px;
   font-weight: lighter;
@@ -65,13 +72,7 @@
   color: #7A8599;
   text-align: left;
 }
-.center-font-third-second{
-  font-size: 16px;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  color: #7A8599;
-  text-align: center;
-}
+
 .img-fifth{
   width: 210px;
   height: 210px;
@@ -80,23 +81,35 @@
   width: 240px; 
 }
 @media (max-width: 800px) {
-  .font-second{
-    max-width: 672px;
-    font-family: "Avenir-Book";
-    font-size: 24px;
+  .center-font-third-second{
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
-    color: white;
-    text-align: left;
+    color: #7A8599;
+    text-align: center;
   }
   .font-third-title{
-    font-family: "Avenir-Book";
     font-size: 24px;
     font-weight: lighter;
     letter-spacing: 1px;
     color: #7a8599;
     margin-left: -20px;
     margin-right: -20px;
+  }
+}
+@media (max-width: 500px) {
+  .center-font-third-second{
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #7A8599;
+    text-align: center;
+  }
+  .font-third-title{
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #7a8599;
   }
 }
 @media (max-width: 1200px){
@@ -207,13 +220,7 @@
   
   }
   .img-fifth{
-    width: 180px;
-    height: 180px;
-  }
-}
-@media (max-width: 360px) {
-  .img-fifth{
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
   }
 }

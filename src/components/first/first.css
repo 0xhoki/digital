@@ -23,14 +23,12 @@
     padding: 100px 18% 50px 18% ;
 }
 .font-top{
-    font-family: "Avenir-Book";
     font-size: 12px;
     text-align: center;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
 .font-content-title{
-    font-family: "Helvetica";
     font-size: 36px;
     text-align: center;
     letter-spacing: 1px;
@@ -38,7 +36,6 @@
 
 }
 .font-content-text{
-    font-family: "Helvetica";
     font-size: 16px;
     text-align: center;
     letter-spacing: 1px;
@@ -99,7 +96,6 @@
 
 @media (max-width: 800px) {
     .font-content-title{
-        font-family: "Avenir-Book";
         font-size: 20px;
         text-align: center;
         letter-spacing: 1px;
@@ -107,8 +103,22 @@
     
     }
     .font-content-text{
-        font-family: "Avenir-Book";
         font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #7A8599;
+    }
+}
+@media (max-width: 450px) {
+    .font-content-title{
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #5C6373;
+    
+    }
+    .font-content-text{
+        font-size: 8px;
         text-align: center;
         letter-spacing: 1px;
         color: #7A8599;
