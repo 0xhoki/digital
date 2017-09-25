@@ -46,9 +46,6 @@ class Third_page extends Component {
             </div>
           </div>
         </div>
-
-
-
     ):(<div> <Fourth_page/> </div>));
   }
 }

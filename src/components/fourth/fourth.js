@@ -30,7 +30,7 @@ class Fourth_page extends Component {
               <div className = "first-content-container">
                 <div className = "row">
                   <p className = "font-content-title">Je BMI berekenen we op basis van je lengte</p>
-                  <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
+                  <p className = "font-content-text m-t-50 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
                                                             de berekening of parameters, enkel in het lezen en interpreteren van
                                                             de resulaten.</p>
                 </div>
