@@ -29,7 +29,7 @@ class Fifth_page extends Component {
                       <div className = "row m-l-20 m-r-20"><p className = "center-font-third-second max-width-525">We hebben al je parameters bekeken en opgenomen in onze berekening.
                                                 Je BMI IS X. Dit wil zeggen dat je …</p></div>
                     </div>
-                    <div className = "row m-t-50 p-l-40 p-r-40">
+                    <div className = "row m-t-100 p-l-40 p-r-40">
                         <div className = "column col-sm-6" >
                           <button onClick = 
                           { ()=>{
@@ -48,7 +48,7 @@ class Fifth_page extends Component {
                         </div> 
                     </div>
 
-                    <div className = "row m-t-70 cutsom-left-flex ">
+                    <div className = "row m-t-100 cutsom-left-flex ">
                       <div className = "column1 col-sm-4 ">
                         <img className = "img-fifth" src={img_left}/>
                       </div>

@@ -198,7 +198,7 @@
       }
       
       .title-two{
-        max-width: 530px;
+        max-width: 570px;
         font-size: 16px;
         font-weight: lighter;
         letter-spacing: 0.5;
@@ -226,8 +226,7 @@
         padding-right: 50px;
     }
 }
-
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 900px){
     .title-one{
         font-size: 14px;
         font-weight: lighter;
@@ -238,7 +237,35 @@
       }
       
       .title-two{
-        max-width: 530px;
+        max-width: 630px;
+        font-size: 12px;
+        font-weight: lighter;
+        letter-spacing: 0.5;
+        color: #7a8599;
+        text-align: left;
+      }
+      .title-second{
+        max-width: 400px;
+        font-size: 24px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        color: white;
+        text-align: left;
+      }
+}
+
+@media screen and (max-width: 1200px){
+    .title-one{
+        font-size: 14px;
+        font-weight: lighter;
+        letter-spacing: 1.0;
+        max-width: 500px;
+        color: #5C6373;
+        text-align: left;
+      }
+      
+      .title-two{
+        max-width: 430px;
         font-size: 12px;
         font-weight: lighter;
         letter-spacing: 0.5;
@@ -287,7 +314,7 @@
         font-weight: lighter;
         letter-spacing: 0.5;
         color: #7a8599;
-        text-align: left;
+        text-align: center;
       }
       .title-second{
         max-width: 400px;
