@@ -271,18 +271,18 @@
     
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .title-one{
         font-size: 10px;
         font-weight: lighter;
         letter-spacing: 1.0;
-        max-width: 500px;
+        max-width: 400px;
         color: #5C6373;
-        text-align: left;
+        text-align: center;
       }
       
       .title-two{
-        max-width: 530px;
+        max-width: 430px;
         font-size: 8px;
         font-weight: lighter;
         letter-spacing: 0.5;
@@ -290,12 +290,12 @@
         text-align: left;
       }
       .title-second{
-        max-width: 240px;
+        max-width: 400px;
         font-size: 12px;
         font-weight: lighter;
         letter-spacing: 1px;
         color: white;
-        text-align: left;
+        text-align: center;
       }
     .m-l-100{
         margin-left: 0px;

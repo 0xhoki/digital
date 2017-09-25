@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 import avatar_w_1 from './assets/image/avatar_w_1.png'
 import avatar_m_1 from './assets/image/avatar_m_1.png'
 import avatar_w_2 from './assets/image/avatar_w_2.png'
@@ -27,7 +26,7 @@ class First_page extends Component {
     return(
     (this.state.flag1 === 1) ? (      <div className = "App">
 
-    <div className = "App-header">
+    <div className = "App-second-header">
       <div className = "row p-l-100 p-r-100" >
         <div > <Mytopprogressbar value = "1"/> </div>
       </div>

@@ -19,7 +19,7 @@ class Second_page extends Component {
     return (
       (this.state.flag2==1)?(
       <div className = "App">
-        <div className = "App-header">
+        <div className = "App-second-header">
             <div className = "row p-l-100 p-r-100" >
               <div > <Mytopprogressbar value = "2"/> </div>
             </div>

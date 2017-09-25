@@ -1,25 +1,15 @@
-.App-header {
+.App-first-header-one {
   background-image: url('./assets/image/bg.png');
   height: 800px;
   background-repeat: no-repeat;
+  padding: 5% 15% 0px 15%;
 }
-
-
-.navbar-transparent {
-  border-width: 0px;
-  -webkit-box-shadow: 0px 0px;
-  border-color: transparent;
-  border-color: transparent;
-  background-color: transparent;
-
-  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-
-}
-.right-navbar{
-  margin: 0px;
-  padding: 0px;
+.firstt-content-container{
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+  padding: 18% 10% 50px 10% ;
 }
 
 .font-top-left{
@@ -38,25 +28,26 @@
   color: white !important;
 }
 
+.navbar-transparent {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  border-color: transparent;
+  border-color: transparent;
+  background-color: transparent;
 
-.content-container-start{
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
-  padding: 15% 12% 15% 12%;
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+
 }
-
-.row-custom{
-  padding-bottom: 8%;
-}
-
-.button-custom {
+.button-custom-active {
   background-color: #FF7D7D;
   border-radius: 100px;
   border: none;
   display: inline-block;
-  width: 244px;
+  width: 240px;
   height: 60px;
+
   font-size: 14px;
   color: white;
   text-align: center;
@@ -64,18 +55,59 @@
   font-weight: lighter;
   font-family: "Avenir-Book";
 }
+.img-first{
+  width: 240px;
+  height: 134px;
+}
+.img-second{
+  width: 200px;
+  height: 240px;
+}
 
 .col-sm-4.column{
-  float: right;
+  width: 240px; 
+  margin: 0px;
+  padding: 0px;
 }
-.content-margin{
-  margin-left: auto;
-  margin-right: auto;
-  width:90%;
+.col-sm-4.column{
+  width: 240px; 
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
-img{
-  width: 90%;
+
+@media (max-width: 450px) {
+  .img-first{
+    width: 180px;
+    height: 105.5px;
+  }
+  .img-second{
+    width: 160px;
+    height: 192px;
+  }
+  .firstt-content-container{
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+    padding: 50px 10% 50px 10% ;
+  }
+  .custom-first-center{
+    text-align: center;
+  }
 }
+@media (max-width: 320px) {
+  .img-first{
+    width: 160px;
+    height: 89px;
+  }
+  .img-second{
+    width: 140px;
+    height: 160px;
+  }
+}
+
+
 .row-custom-bottom{
   background-color: #F2F4F7;
   z-index: -1;
@@ -85,45 +117,17 @@ img{
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
-  width:90%;  
+  width:100%;  
 }
 .margin-auto{
   text-align: center;
-}
-.column-custom-bottom{
-  float: left;
-  width: 20%;
-}
-@media screen and (max-width: 1200px) {
-  .button-custom {
-    background-color: #FF7D7D;
-    border-radius: 100px;
-    border: none;
-    width: 160px;
-    height: 40px;  
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-weight: lighter;
-  }
-}
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .bottom-img-custom{
-
-  text-align: center;
-  height: 35px;
-  width: 80px;
-
-}
+  
+    text-align: center;
+    height: 35px;
+    width: 80px;
+  }

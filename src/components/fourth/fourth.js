@@ -20,7 +20,7 @@ class Fourth_page extends Component {
       (this.state.flag4===0)?(
 
       <div className = "App">
-        <div className = "App-header">
+        <div className = "App-second-header">
 
           <div className = "row p-l-100 p-r-100" >
             <div > <Mytopprogressbar value = "4"/> </div>
