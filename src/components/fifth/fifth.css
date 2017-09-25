@@ -96,6 +96,10 @@
     margin-left: -20px;
     margin-right: -20px;
   }
+  .img-fifth{
+    width: 180px;
+    height: 180px;
+  }
 }
 @media (max-width: 500px) {
   .center-font-third-second{
@@ -110,6 +114,10 @@
     font-weight: lighter;
     letter-spacing: 1px;
     color: #7a8599;
+  }
+  .img-fifth{
+    width: 150px;
+    height: 150px;
   }
 }
 @media (max-width: 1200px){
