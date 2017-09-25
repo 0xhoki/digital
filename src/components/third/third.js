@@ -20,14 +20,14 @@ class Third_page extends Component {
       (this.state.flag3==1)?(
 
       <div className = "App">
-        <div className = "App-fifth-header">
+        <div className = "App-second-header">
 
           <div className = "row p-l-100 p-r-100" >
             <div > <Mytopprogressbar value = "3"/> </div>
           </div>
 
           <div className = "row m-t-80 m-b-50">
-              <div className = "App-second-header">
+              <div className = "first-content-container">
                 <div className = "row">
                   <p className = "font-content-title">Je BMI berekenen we op basis van je gewicht</p>
                   <p className = "font-content-text m-t-50 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in

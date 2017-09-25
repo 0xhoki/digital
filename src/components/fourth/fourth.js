@@ -11,13 +11,13 @@ class Fourth_page extends Component {
   constructor(props){
     super(props);
     this.state={
-      flag4:0
+      flag4:1
     }
   }  
   render() {
 
     return (
-      (this.state.flag4===0)?(
+      (this.state.flag4===1)?(
 
       <div className = "App">
         <div className = "App-second-header">
@@ -39,7 +39,7 @@ class Fourth_page extends Component {
                 </div>
 
                 <div className = "row m-t-100">
-                  <button className = "first-button-custom" onClick={ ()=>{this.setState({flag4:1})}}>Volgende stap</button> 
+                  <button className = "first-button-custom" onClick={ ()=>{this.setState({flag4:2})}}>Volgende stap</button> 
                 </div>
 
               </div>
