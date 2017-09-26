@@ -1,7 +1,6 @@
 .App-sixth-header{
     background-image: url('./assets/image/bg-six.png');
-    width: 100%;
-    height: 800px;
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 5% 15% 50px 15%;
 }
@@ -22,7 +21,6 @@
 
 }
 .font-content-text{
-    font-family: "Avenir-Book";
     font-size: 16px;
     text-align: center;
     letter-spacing: 1px;

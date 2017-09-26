@@ -66,14 +66,15 @@
 
 .col-sm-4.column{
   width: 240px; 
-  margin: 0px;
-  padding: 0px;
-}
-.col-sm-4.column{
-  width: 240px; 
   text-align: center;
   padding: 0px;
   margin: 0px;
+}
+.heart_custom{
+  width: 60px;
+  height: 47px;
+  margin-right: 20px;
+  vertical-align: middle;
 }
 
 @media (max-width: 450px) {
@@ -106,8 +107,14 @@
     height: 160px;
   }
 }
-
-
+@media (max-width: 800px) {
+  .heart_custom{
+    width: 30px;
+    height: 23px;
+    margin-right: 2px;
+    vertical-align: middle;
+  }
+}
 .row-custom-bottom{
   background-color: #F2F4F7;
   z-index: -1;
@@ -126,8 +133,7 @@
 }
 
 .bottom-img-custom{
-  
     text-align: center;
     height: 35px;
     width: 80px;
-  }
+}

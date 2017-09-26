@@ -21,8 +21,7 @@ class Fourth_page extends Component {
 
       <div className = "App">
         <div className = "App-second-header">
-
-          <div className = "row p-l-100 p-r-100" >
+          <div className = "row custom-progress" >
             <div > <Mytopprogressbar value = "4"/> </div>
           </div>
 

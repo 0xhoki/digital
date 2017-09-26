@@ -27,7 +27,7 @@ class First_page extends Component {
     (this.state.flag1 === 1) ? (      <div className = "App">
 
     <div className = "App-second-header">
-      <div className = "row p-l-100 p-r-100" >
+      <div className = "row custom-progress" >
         <div > <Mytopprogressbar value = "1"/> </div>
       </div>
 
@@ -41,8 +41,8 @@ class First_page extends Component {
                                                   de resulaten.</p>
             </div>
             <div className = "row m-t-50">
+
               <div className = "col-md-5">
-                
                 <div className = "row"> 
                   <img className = "avatar-image" 
                 onClick = {()=>{
@@ -56,12 +56,11 @@ class First_page extends Component {
                 <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is naar de berekening en resultaat van haar BMI</p> </div>
               </div>
 
-              <div className = "col-md-2">
+              <div className = "col-md-2 custom-left">
                 <hr className = "custom-hr" />
               </div>
 
               <div className = "col-md-5">
-                
                 <div className = "row"> 
                   <img className = "avatar-image" 
                 onClick = { 

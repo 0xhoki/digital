@@ -74,20 +74,32 @@
     font-weight: lighter;
     font-family: "Avenir-Book";
 }
-
 .custom-z-index-right{
     position: absolute;
     right: 10px;
     top: 0px;
     z-index: 1;
 }
-
+.custom-progress{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 @media (max-width: 990px){
+    .col-md-5{
+        width: 47%;
+        float: left;
+    }
     .custom-hr{
         border:         none;
-        border-top:     1px solid #F2F4F7;
-        height:         1px;
-        width:          10vh;    
+        border-left:    1px solid #F2F4F7;
+        height:         10vh;
+        width:          1px;
+    }
+    .col-md-2{
+        width: 4%;
+        float: left;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .first-button-custom {
         background-color: #FF7D7D;
@@ -105,5 +117,55 @@
         font-weight: lighter;
         font-family: "Avenir-Book";
     }
-
+    .avatar-image{
+        max-width: 160px;
+        max-height: 160px;
+    }
+    .first-content-container{
+        background-color: white;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
+        padding: 30px 18% 50px 18% ;
+    }
+}
+@media (max-width: 550px){
+    .custom-progress{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .avatar-image{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .img-check-custom{ 
+        max-width: 20px;
+        max-height:20px;
+    }
+}
+@media (max-width: 330px){
+    .avatar-image{
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .img-check-custom{ 
+        max-width: 15px;
+        max-height:15px;
+    }
+    .first-button-custom {
+        background-color: #FF7D7D;
+        border-radius: 100px;
+        border: none;
+        display: inline-block;
+        width: 160px;
+        height: 40px;
+        margin: 0px 0px 0px 0px !important;
+      
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-weight: lighter;
+        font-family: "Avenir-Book";
+    }
 }

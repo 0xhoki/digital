@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem} from 'react-bootstrap';
 
-import image_header from './assets/image/bg.png'
 import image_third_first from './assets/image/img-third-first.png'
 import image_third_second from './assets/image/img-third-second.png'
 import image_third_third from './assets/image/img-third-third.png'
 
+import image_heart from './assets/image/heart.png'
 import image_footer_first from './assets/image/footer-first.png'
 import image_footer_second from './assets/image/footer-second.png'
 import image_footer_third from './assets/image/footer-third.png'
@@ -33,7 +33,12 @@ class Start_page extends Component {
             <Navbar className = "navbar-transparent"  collapseOnSelect>
               <Navbar.Header>
                 <Navbar.Brand>
-                  <a className = "font-top-left" href="#">bmi.vlaanderen</a>
+                  <div row>
+                    <a href="#" class="navbar-left"><img className = "heart_custom"  src={image_heart}/></a>
+                    <a className = "font-top-left" href="#">bmi.vlaanderen</a>
+                  </div>
+
+
                 </Navbar.Brand>
                 <Navbar.Toggle />
               </Navbar.Header>
@@ -102,18 +107,15 @@ class Start_page extends Component {
                   </div>
                 </div>
             </div>
-
-
-
             <div className = "row-custom-bottom m-t-50 m-b-100">
               <div className = "row">
                 <div className = "col-md-1"></div>
-                <div className = "col-md-2 margin-auto">               <img className="bottom-img-custom" src={image_footer_first}/> </div>
-                <div className = "col-md-2 margin-auto">               <img className="bottom-img-custom" src={image_footer_second}/></div>
-                <div className = "col-md-2 margin-auto">               <img className="bottom-img-custom" src={image_footer_third}/></div>
-                <div className = "col-md-2 margin-auto">       <img className="bottom-img-custom" src={image_footer_fourth}/></div>
-                <div className = "col-md-2 margin-auto"><img className="bottom-img-custom" src={image_footer_fifth}/></div>
-                <div className = "col-md-1"></div>
+                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_first}/> </div>
+                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_second}/></div>
+                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_third}/></div>
+                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_fourth}/></div>
+                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_fifth}/></div>
+                <div className = "col-sm-1"></div>
               </div>
             </div>
         </div>
