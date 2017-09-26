@@ -219,6 +219,9 @@
     .m-t-100{
         margin-top: 100px;
     }
+    .m-b-100{
+        margin-bottom: 100px;
+    }
     .p-l-50{
         padding-left: 50px;
     }
@@ -226,7 +229,33 @@
         padding-right: 50px;
     }
 }
+.font-content-title{
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #5C6373;
+
+}
+.font-content-text{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #7A8599;
+}
 @media screen and (max-width: 900px){
+    .font-content-title{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #5C6373;
+    
+    }
+    .font-content-text{
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #7A8599;
+    }
     .title-one{
         font-size: 14px;
         font-weight: lighter;
@@ -284,10 +313,10 @@
         margin-left: 50px;
     }
     .m-t-100{
-        margin-top: 20px;
-    }
-    .m-t-100{
         margin-top: 60px;
+    }
+    .m-b-100{
+        margin-bottom: 60px;
     }
     .p-l-50{
         padding-left: 30px;
@@ -299,6 +328,19 @@
 }
 
 @media screen and (max-width: 450px) {
+    .font-content-title{
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #5C6373;
+    
+    }
+    .font-content-text{
+        font-size: 8px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #7A8599;
+    }
     .title-one{
         font-size: 10px;
         font-weight: lighter;
@@ -328,7 +370,10 @@
         margin-left: 0px;
     }
     .m-t-100{
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+    .m-b-100{
+        margin-bottom: 40px;
     }
     .p-l-50{
         padding-left: 10px;

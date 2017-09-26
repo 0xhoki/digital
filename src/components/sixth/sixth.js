@@ -10,9 +10,9 @@ class Sixth_page extends Component {
   render() {
     return(     
     <div className = "App">
-      <div className = "App-header">
+      <div className = "App-sixth-header">
         <div className = "sixth-content-container m-b-50">
-          <div className = "row">
+          <div className = "row m-t-100">
             <p className = "font-content-title">Schrijf je in en verlies gewicht</p>
             <p className = "font-content-text">Sluit je aan bij meer dan 125.000 mannen en vrouwen. We sturen je een
                                                 maand lang tips en trics om je BMI onder controle te krijgen en toe

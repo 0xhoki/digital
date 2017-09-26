@@ -24,7 +24,7 @@ class Fifth_page extends Component {
               <div className = "App">
                 <div className = "App-fifth-header">
                   <div className = "first-content-container m-b-50">
-                    <div className = "row"> 
+                    <div className = "row m-t-100"> 
                       <div className = "row m-l-50 m-r-50"><p className = "font-third-title">Je BMI berekening resultaat</p></div>
                       <div className = "row m-l-20 m-r-20"><p className = "center-font-third-second max-width-525">We hebben al je parameters bekeken en opgenomen in onze berekening.
                                                 Je BMI IS X. Dit wil zeggen dat je …</p></div>
@@ -61,7 +61,7 @@ class Fifth_page extends Component {
                                                           te ondernemen.</p>
                       </div>
                     </div>
-                    <div className = "row m-t-70 cutsom-right-flex ">
+                    <div className = "row m-t-100 cutsom-right-flex m-b-100">
 
                       <div className = "col-sm-8 m-t-40">
                         <p className = "title-one ">ANDERE CALCULATORS</p>
