@@ -79,12 +79,12 @@
 
 @media (max-width: 450px) {
   .img-first{
-    width: 180px;
-    height: 105.5px;
+    width: 100px;
+    height: 55.625px;
   }
   .img-second{
-    width: 160px;
-    height: 192px;
+    width: 100px;
+    height: 114.2px;
   }
   .firstt-content-container{
     background-color: white;
@@ -99,19 +99,19 @@
 }
 @media (max-width: 320px) {
   .img-first{
-    width: 160px;
-    height: 89px;
+    width: 100px;
+    height: 55.625px;
   }
   .img-second{
-    width: 140px;
-    height: 160px;
+    width: 100px;
+    height: 114.2px;
   }
 }
 @media (max-width: 800px) {
   .heart_custom{
     width: 30px;
     height: 23px;
-    margin-right: 2px;
+    margin-right: 10px;
     vertical-align: middle;
   }
 }
