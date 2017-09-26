@@ -27,17 +27,17 @@ class Fourth_page extends Component {
 
           <div className = "row m-t-80 m-b-50">
               <div className = "first-content-container">
-                <div className = "row m-t-100">
+                <div className = "row m-t-50">
                   <p className = "font-content-title">Je BMI berekenen we op basis van je lengte</p>
                   <p className = "font-content-text m-t-50 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
                                                             de berekening of parameters, enkel in het lezen en interpreteren van
                                                             de resulaten.</p>
                 </div>
-                <div className = "row m-t-100">
+                <div className = "row m-t-100 m-b-100">
                   <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar value_input = "4"/> </div>
                 </div>
 
-                <div className = "row m-t-100 m-b-100">
+                <div className = "row p-t-50 m-b-100">
                   <button className = "first-button-custom" onClick={ ()=>{this.setState({flag4:2})}}>Volgende stap</button> 
                 </div>
 

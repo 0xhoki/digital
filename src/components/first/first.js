@@ -34,7 +34,7 @@ class First_page extends Component {
       <div className = "row m-t-80 m-b-50">
 
           <div className = "first-content-container">
-            <div className = "row m-t-100">
+            <div className = "row m-t-70">
               <p className = "font-content-title">BMI berekenen begint bij je geslacht</p>
               <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
                                                   de berekening of parameters, enkel in het lezen en interpreteren van
