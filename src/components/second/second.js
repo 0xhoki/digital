@@ -26,7 +26,7 @@ class Second_page extends Component {
     return (
       (this.state.flag2==1)?(
       <div className = "App">
-        <div className = "App-second-header">
+        <div className = "App-first-header">
             <div className = "row custom-progress" >
               <div > <Mytopprogressbar  value = "2"/> </div>
             </div>
@@ -45,7 +45,7 @@ class Second_page extends Component {
                   <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setAgeHandle} value_input = "2"/> </div>
                 </div>
 
-                <div className = "row m-b-100 p-t-50">
+                <div className = "row m-b-50">
                   <button className = "first-button-custom" onClick={ ()=>{this.setState({flag2:2})}}>Volgende stap</button> 
                 </div>
 

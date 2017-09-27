@@ -28,7 +28,7 @@ class Third_page extends Component {
       (this.state.flag3==1)?(
 
       <div className = "App">
-        <div className = "App-second-header">
+        <div className = "App-first-header">
 
           <div className = "row custom-progress" >
             <div > <Mytopprogressbar value = "3"/> </div>
@@ -46,7 +46,7 @@ class Third_page extends Component {
                   <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setWeightHandle} value_input = "3"/> </div>
                 </div>
 
-                <div className = "row p-t-50 m-b-100">
+                <div className = "row m-b-50">
                   <button className = "first-button-custom" onClick={ ()=>{this.setState({flag3:2})}}>Volgende stap</button> 
                 </div>
 

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import img_left from './assets/image/img_left.png'
 import img_right from './assets/image/img_right.png'
 
-
 import './fifth.css';
 
 import Sixth_page from '../sixth/sixth';

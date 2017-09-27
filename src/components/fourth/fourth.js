@@ -28,7 +28,7 @@ class Fourth_page extends Component {
       (this.state.flag4===1)?(
 
       <div className = "App">
-        <div className = "App-second-header">
+        <div className = "App-first-header">
           <div className = "row custom-progress" >
             <div > <Mytopprogressbar value = "4"/> </div>
           </div>
@@ -45,7 +45,7 @@ class Fourth_page extends Component {
                   <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setHeightHandle} value_input = "4"/> </div>
                 </div>
 
-                <div className = "row p-t-50 m-b-100">
+                <div className = "row m-b-50">
                   <button className = "first-button-custom" onClick={ ()=>{this.setState({flag4:2})}}>Volgende stap</button> 
                 </div>
 

@@ -65,7 +65,7 @@ class Start_page extends Component {
               </div>
             </div>
 
-            <div className = "firstt-content-container m-t-100">
+            <div className = "start-content-container m-t-100">
                 <div className = "row cutsom-right-flex">
 
                   <div className = "column col-sm-8 m-t-15">
