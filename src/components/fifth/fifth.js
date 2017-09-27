@@ -19,7 +19,6 @@ class Fifth_page extends Component {
         weight: this.props.weight,
         height: this.props.height/100.0,
         value_bmi: Number(( (this.props.weight*10000.0)/(this.props.height*this.props.height) ).toFixed(2))
-
     }
 
     
@@ -37,6 +36,7 @@ class Fifth_page extends Component {
                       <div className = "row m-l-20 m-r-20"><p className = "center-font-third-second max-width-525">We hebben al je parameters bekeken en opgenomen in onze berekening.
                                                 Je BMI IS {this.state.value_bmi}. Dit wil zeggen dat je …</p></div>
                     </div>
+
                     <div className = "row m-t-100 p-l-40 p-r-40">
                         <div className = "column col-sm-6" >
                           <button onClick = 
@@ -89,7 +89,7 @@ class Fifth_page extends Component {
     }
     else if(this.state.button_flag === 1){
         return (
-          <div> <Sixth_page /> </div>
+          <div> <Sixth_page gender = {this.state.gender} age={this.state.age} value_bmi={this.state.value_bmi} /> </div>
         );
     }
     else if(this.state.button_flag == 2){
