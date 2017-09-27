@@ -18,7 +18,7 @@ class Fifth_page extends Component {
         age: this.props.age,
         weight: this.props.weight,
         height: this.props.height/100.0,
-        value_bmi: (this.props.weight*10000.0)/(this.props.height*this.props.height)
+        value_bmi: Number(( (this.props.weight*10000.0)/(this.props.height*this.props.height) ).toFixed(2))
 
     }
 
