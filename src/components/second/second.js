@@ -31,7 +31,7 @@ class Second_page extends Component {
               <div > <Mytopprogressbar  value = "2"/> </div>
             </div>
 
-            <div className = "row m-t-80 m-b-50">
+            <div className = "row m-t-50 m-b-50">
               <div className = "first-content-container ">
                 <div className = "row m-t-50">
                   <p className = "font-content-title">Je BMI berekenen we op basis van je leeftijd</p>
@@ -41,7 +41,7 @@ class Second_page extends Component {
                 </div>
 
 
-                <div className = "row m-t-100 m-b-100">
+                <div className = "row m-t-20 m-b-70">
                   <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setAgeHandle} value_input = "2"/> </div>
                 </div>
 
