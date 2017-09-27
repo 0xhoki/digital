@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-// import './myslider.css';
-// import { ProgressBar } from 'react-bootstrap';
-
-
 import 'rc-slider/assets/index.css';
 import Tooltip from 'rc-tooltip';
-// import React from 'react';
+
 import ReactDOM from 'react-dom';
 import Slider, { createSliderWithTooltip } from 'rc-slider';
 
@@ -15,7 +11,6 @@ function log(value) {
 }
 
 function percentFormatter(v,f) {
-
   if(f==2)
     return `${v} jaar`;
   else if(f==3)
@@ -98,6 +93,7 @@ class Mysliderbar extends Component {
               marginTop: -9,
               backgroundColor: '#5C6373',
             }}
+            onChange={this.props.slider_value}
 
           />
 

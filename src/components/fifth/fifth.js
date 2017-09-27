@@ -13,11 +13,19 @@ class Fifth_page extends Component {
   constructor(props){
     super(props);
     this.state={
-        button_flag: 0
+        button_flag: 0,
+        gender: this.props.gender,
+        age: this.props.age,
+        weight: this.props.weight,
+        height: this.props.height/100.0,
+        value_bmi: 24.8356
+
     }
+    this.setState({value_bmi: this.state.weight/(this.state.height*this.state.height)})
+    
   }  
   render() { 
-    
+   
     if(this.state.button_flag === 0){
       return (
         
@@ -27,7 +35,7 @@ class Fifth_page extends Component {
                     <div className = "row m-t-100"> 
                       <div className = "row m-l-50 m-r-50"><p className = "font-third-title">Je BMI berekening resultaat</p></div>
                       <div className = "row m-l-20 m-r-20"><p className = "center-font-third-second max-width-525">We hebben al je parameters bekeken en opgenomen in onze berekening.
-                                                Je BMI IS X. Dit wil zeggen dat je …</p></div>
+                                                Je BMI IS {this.state.value_bmi}. Dit wil zeggen dat je …</p></div>
                     </div>
                     <div className = "row m-t-100 p-l-40 p-r-40">
                         <div className = "column col-sm-6" >

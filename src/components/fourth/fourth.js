@@ -11,9 +11,17 @@ class Fourth_page extends Component {
   constructor(props){
     super(props);
     this.state={
-      flag4:1
+      flag4:1,
+      gender: this.props.gender,
+      age: this.props.age,
+      weight: this.props.weight,
+      height: 185
     }
+    this.setHeightHandle = this.setHeight.bind(this);
   }  
+  setHeight(hhh){
+    this.setState({height:hhh});
+  }
   render() {
 
     return (
@@ -34,7 +42,7 @@ class Fourth_page extends Component {
                                                             de resulaten.</p>
                 </div>
                 <div className = "row m-t-100 m-b-100">
-                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar value_input = "4"/> </div>
+                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setHeightHandle} value_input = "4"/> </div>
                 </div>
 
                 <div className = "row p-t-50 m-b-100">
@@ -46,7 +54,7 @@ class Fourth_page extends Component {
           </div>
         </div>
 
-    ):(<div> <Fifth_page/> </div>));
+    ):(<div> <Fifth_page gender={this.state.gender} age={this.state.age} weight={this.state.weight} height={this.state.height} /> </div>));
   }
 }
 export default Fourth_page;

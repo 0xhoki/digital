@@ -10,9 +10,17 @@ import Fourth_page from '../fourth/fourth';
 class Third_page extends Component {
   constructor(props){
     super(props);
+
     this.state={
-      flag3:1
+      flag3:1,
+      gender: this.props.gender,  
+      age: this.props.age,
+      weight: 85
     }
+    this.setWeightHandle = this.setWeight.bind(this);
+  }
+  setWeight(www){
+    this.setState({weight:www});
   }
   render() {
 
@@ -35,7 +43,7 @@ class Third_page extends Component {
                                                             de resulaten.</p>
                 </div>
                 <div className = "row m-t-100 m-b-100">
-                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar value_input = "3"/> </div>
+                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setWeightHandle} value_input = "3"/> </div>
                 </div>
 
                 <div className = "row p-t-50 m-b-100">
@@ -46,7 +54,7 @@ class Third_page extends Component {
             </div>
           </div>
         </div>
-    ):(<div> <Fourth_page/> </div>));
+    ):(<div> <Fourth_page gender={this.state.gender} age={this.state.age} weight={this.state.weight} /> </div>));
   }
 }
 export default Third_page;

@@ -18,9 +18,12 @@ class First_page extends Component {
     super(props);
     this.state = {
       flag1:1,
-      person_change_flag:0
+      person_change_flag: 0,
+     
     }
   }
+
+
 
   render() {
     return(
@@ -46,6 +49,7 @@ class First_page extends Component {
                 <div className = "row"> 
                   <img className = "avatar-image" 
                 onClick = {()=>{
+
                   if(this.state.person_change_flag !==1)
                     this.setState({person_change_flag:(this.state.person_change_flag+1)%2})}
                   }
@@ -65,6 +69,7 @@ class First_page extends Component {
                   <img className = "avatar-image" 
                 onClick = { 
                   ()=>{
+
                     if(this.state.person_change_flag !==0)
                       this.setState( {person_change_flag:(this.state.person_change_flag+1)%2} )
                     } 
@@ -86,7 +91,7 @@ class First_page extends Component {
         </div>
       </div>
 
-  </div>): (<div><Second_page /></div>));
+  </div>): (<div><Second_page gender = {this.state.person_change_flag} /></div>));
 
   }
 }

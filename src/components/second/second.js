@@ -12,17 +12,23 @@ class Second_page extends Component {
   constructor(props){
     super(props);
     this.state={
-      flag2:1
+      flag2:1,
+      age:25,
+      gender: this.props.gender
     }
+    this.setAgeHandle = this.setAge.bind(this);
   }
-  render() {
+  setAge(aagg){
+    this.setState({age: aagg});
+  }
 
+  render() {
     return (
       (this.state.flag2==1)?(
       <div className = "App">
         <div className = "App-second-header">
             <div className = "row custom-progress" >
-              <div > <Mytopprogressbar value = "2"/> </div>
+              <div > <Mytopprogressbar  value = "2"/> </div>
             </div>
 
             <div className = "row m-t-80 m-b-50">
@@ -34,8 +40,9 @@ class Second_page extends Component {
                                                             de resulaten.</p>
                 </div>
 
+
                 <div className = "row m-t-100 m-b-100">
-                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar value_input = "2"/> </div>
+                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setAgeHandle} value_input = "2"/> </div>
                 </div>
 
                 <div className = "row m-b-100 p-t-50">
@@ -49,7 +56,7 @@ class Second_page extends Component {
       </div>
 
 
-  ):(<div> <Third_page/> </div>));
+  ):(<div> <Third_page age={this.state.age} gender={this.state.gender}/> </div>));
   }
 }
 export default Second_page;
