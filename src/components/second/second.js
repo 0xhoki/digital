@@ -42,11 +42,11 @@ class Second_page extends Component {
 
 
                 <div className = "row m-t-20 m-b-70">
-                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setAgeHandle} value_input = "2"/> </div>
+                  <div className = "m-t-100" > <Mysliderbar slider_value={this.setAgeHandle} value_input = "2"/> </div>
                 </div>
 
                 <div className = "row m-b-50">
-                  <button className = "first-button-custom" onClick={ ()=>{this.setState({flag2:2})}}>Volgende stap</button> 
+                  <button className = "button-custom-active" onClick={ ()=>{this.setState({flag2:2})}}>Volgende stap</button> 
                 </div>
 
               </div>

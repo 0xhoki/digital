@@ -53,12 +53,14 @@ class Fifth_page extends Component {
                     </div>
 
                     <div className = "row">
-                      <p className = "center-font-third-second">
-                        {bmi_explain(this.state.value_bmi)}
+                      <p className = "center-font-third-second max-width-525">
+                        <span className = "font-add">
+                          {bmi_explain(this.state.value_bmi)}
+                        </span>
                       </p>
                     </div>
 
-                    <div className = "row m-t-40 p-l-40 p-r-40">
+                    <div className = "row m-t-40">
                         <div className = "column col-sm-6" >
                           <button onClick = 
                           { ()=>{

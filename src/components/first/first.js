@@ -81,7 +81,7 @@ class First_page extends Component {
             </div>
 
             <div className = "row m-t-20">
-              <button className = "first-button-custom" onClick = { ()=>{this.setState( {flag1:2} )} } >Volgende stap</button> 
+              <button className = "button-custom-active" onClick = { ()=>{this.setState( {flag1:2} )} } >Volgende stap</button> 
             </div>
 
           </div>

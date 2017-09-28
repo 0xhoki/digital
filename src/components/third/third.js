@@ -43,11 +43,11 @@ class Third_page extends Component {
                                                             de resulaten.</p>
                 </div>
                 <div className = "row m-t-20 m-b-70">
-                  <div className = "m-t-100  m-l-50 m-r-50" > <Mysliderbar slider_value={this.setWeightHandle} value_input = "3"/> </div>
+                  <div className = "m-t-100" > <Mysliderbar slider_value={this.setWeightHandle} value_input = "3"/> </div>
                 </div>
 
                 <div className = "row m-b-50">
-                  <button className = "first-button-custom" onClick={ ()=>{this.setState({flag3:2})}}>Volgende stap</button> 
+                  <button className = "button-custom-active" onClick={ ()=>{this.setState({flag3:2})}}>Volgende stap</button> 
                 </div>
 
               </div>

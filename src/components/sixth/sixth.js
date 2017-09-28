@@ -35,39 +35,40 @@ class Sixth_page extends Component {
           </div>
 
           <form action = "https://hooks.zapier.com/hooks/catch/518022/rvo9lj/">
+          
             <div className = "row m-t-100">            
               <div className = "column col-sm-6">
                 <p className = "font-content-mini">Voornaam</p>
-                <input type="text" className = "custom-input-text" name="first_name" placeholder="Sofie" />
+                <input type="text" className = "custom-input-text m-b-30" name="first_name" placeholder="Sofie" />
               </div>
               <div className = "column col-sm-6">
                 <p className = "font-content-mini">Achternaam</p>
-                <input type="text" className = "custom-input-text" name="last_name" placeholder="Janssens"/>
+                <input type="text" className = "custom-input-text m-b-30" name="last_name" placeholder="Janssens"/>
               </div>
             </div>
 
-            <div className = "row m-t-20">
+            <div className = "row">
               <div className = "column col-sm-12">
                 <p className = "font-content-mini">E-mail</p>
-                <input type="text" className = "custom-input-text" name="email" placeholder="sofie@getfit.com"/>
+                <input type="text" className = "custom-input-text m-b-30" name="email" placeholder="sofie@getfit.com"/>
               </div>
             </div> 
 
-            <div className = "row m-t-20">
+            <div className = "row">
               <div className = "column col-sm-6">
                 <p className = "font-content-mini">Gewenst gewicht</p>
-                <input type="text" className = "custom-input-text" name="gweight" placeholder="KG" />
+                <input type="text" className = "custom-input-text m-b-30" name="gweight" placeholder="KG" />
               </div>
               <div className = "column col-sm-6">
                 <p className = "font-content-mini">Provincie</p>
-                <input type="text" className = "custom-input-text" name="location" placeholder="Antwerpen"/>
+                <input type="text" className = "custom-input-text m-b-30" name="location" placeholder="Antwerpen"/>
               </div>
             </div>
     
-            <div className = "row m-t-20">
+            <div className = "row">
               <div className = "column col-sm-12">
                 <p className = "font-content-mini">Motivatie</p>
-                <textarea rows="3" className = "custom-text-area" name="motivate" placeholder="Jouw persoonlijke motivatie om gewicht te verliezen"/>
+                <textarea rows="3" className = "custom-text-area m-b-30" name="motivate" placeholder="Jouw persoonlijke motivatie om gewicht te verliezen"/>
               </div>
             </div>
 
@@ -76,7 +77,7 @@ class Sixth_page extends Component {
             <input type="hidden" name="value_bmi" value={this.state.value_bmi}/>
 
             <div className = "row m-t-60 m-b-50">
-                <input type="submit" className = "first-button-custom" value = "Laten we beginnen" onClick = { ()=>{this.setState({flag_sixth:0})}} /> 
+                <input type="submit" className = "button-custom-active" value = "Laten we beginnen" onClick = { ()=>{this.setState({flag_sixth:0})}} /> 
             </div>
             
           </form>
