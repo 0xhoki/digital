@@ -36,7 +36,7 @@ function set_max(f){
 }
 function set_def(f){
   if(f==2)
-    return 25;
+    return 50;
   else if(f==3)
     return 85;
   else if(f==4)

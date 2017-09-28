@@ -60,7 +60,7 @@ class Fifth_page extends Component {
                       </p>
                     </div>
 
-                    <div className = "row m-t-40">
+                    <div className = "row m-t-40 custom-short-padding">
                         <div className = "column col-sm-6" >
                           <button onClick = 
                           { ()=>{
@@ -78,11 +78,12 @@ class Fifth_page extends Component {
                             )}} className = "button-custom-deactive">Opnieuw Berekenen</button> 
                         </div> 
                     </div>
+
                     <div className = "row m-t-50 cutsom-left-flex ">
                       <div className = "column1 col-sm-4 ">
                         <img className = "img-fifth-one" src={img_left}/>
                       </div>
-                      <div className = "col-sm-8 m-t-20 ">
+                      <div className = "col-sm-8 m-t-20 custom-m-l-20">
                         <p className = "title-one p-l-50">WAAROM IS MIJN BMI BELANGRIJK?</p>
                         <p className = "title-two p-l-50">e BMI is belangrijk, omdat het aangeeft in hoeverre er sprake is van een
                                                           gezond gewicht. Aan de hand van de formule voor je BMI kun je
@@ -99,7 +100,7 @@ class Fifth_page extends Component {
                           lichaam nog beter in kaart te brengen. Klik op deze link om terug naar de home pagete gaan.</p>
                       </div>
                       <div className = "column1 col-sm-4 ">
-                        <img className = "img-fifth-two" src={img_right}/>
+                        <img className = "img-fifth-two " src={img_right}/>
                       </div>
                     </div>
          

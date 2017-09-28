@@ -13,7 +13,7 @@ class Second_page extends Component {
     super(props);
     this.state={
       flag2:1,
-      age:25,
+      age:50,
       gender: this.props.gender
     }
     this.setAgeHandle = this.setAge.bind(this);
