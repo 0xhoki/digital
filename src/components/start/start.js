@@ -51,7 +51,7 @@ class Start_page extends Component {
             </div>
 
             <div className = "start-content-container m-t-100 m-b-50">
-                <div className = "row cutsom-right-flex">
+                <div className = "row m-t-50 cutsom-right-flex">
 
                   <div className = "column col-sm-8 m-t-15">
                     <p className = "title-one">WAT IS BMI EN HOE MOET JE DE RESULATEN LEZEN?</p>

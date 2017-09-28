@@ -28,7 +28,7 @@ function set_min(f){
 }
 function set_max(f){
   if(f==2)
-    return 50;
+    return 99;
   else if(f==3)
     return 150;
   else if(f==4)

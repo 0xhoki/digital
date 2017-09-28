@@ -6,7 +6,6 @@
   padding: 5% 15% 50px 15%;
   text-align: center;
 }
-
 .custom-center-align{
   text-align: center;
 }
@@ -15,7 +14,7 @@
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
-  padding: 50px 10% 40px 10% ;
+  padding: 50px 7% 40px 7% ;
 }
 .font-top-left{
   font-size: 20px;
