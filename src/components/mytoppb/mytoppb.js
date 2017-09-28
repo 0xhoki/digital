@@ -36,7 +36,7 @@ class Mytopprogressbar extends Component {
     return (
       <div>
           <div className = "row">
-            <p className = "font-top">Je bent in 1 stap van 6</p>
+            <p className = "font-top">JE BENT IN {this.state.myValue} STAP VAN 6</p>
           </div>
           <div className = "row">
             {this.renderAll()} 

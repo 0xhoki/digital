@@ -35,15 +35,16 @@ class First_page extends Component {
       <div className = "row m-t-50 m-b-50">
 
           <div className = "first-content-container">
-            <div className = "row m-t-20">
+            <div className = "row">
               <p className = "font-content-title">BMI berekenen begint bij je geslacht</p>
               <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
                                                   de berekening of parameters, enkel in het lezen en interpreteren van
                                                   de resulaten.</p>
             </div>
             <div className = "row">
+
               <div className = "col-md-5">
-                <div className = "row"> 
+                <div className = "row p-l-50"> 
                   <img className = "avatar-image" 
                 onClick = {()=>{
 
@@ -54,15 +55,15 @@ class First_page extends Component {
                  <img className = "img-check-custom custom-z-index-right"  src={ this.state.person_change_flag===1 ? img_check: ""} />
                  
                  </div>
-                <div className = "row m-t-10"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is naar de berekening en resultaat van haar BMI</p> </div>
+                <div className = "row m-t-30"> <p className = "first-content-text m-add-50">Ik ben een vrouw die nieuwsgierig is naar de berekening en resultaat van haar BMI</p> </div>
               </div>
 
               <div className = "col-md-2 custom-left">
                 <hr className = "custom-hr" />
               </div>
 
-              <div className = "col-md-5">
-                <div className = "row"> 
+              <div className = "col-md-5 ">
+                <div className = "row row "> 
                   <img className = "avatar-image" 
                 onClick = { 
                   ()=>{
@@ -75,11 +76,11 @@ class First_page extends Component {
                     <img className = "img-check-custom custom-z-index-right" src={ this.state.person_change_flag===0 ? img_check: ""} />
                 
                 </div>
-                <div className = "row m-t-10"> <p className = "font-content-text">Ik ben een man die nieuwsgierig is naar de berekening en resultaat van zijn BMI</p> </div>
+                <div className = "row m-t-30  "> <p className = "first-content-text m-add-50">Ik ben een man die nieuwsgierig is naar de berekening en resultaat van zijn BMI</p> </div>
               </div>                  
             </div>
 
-            <div className = "row m-t-20">
+            <div className = "row m">
               <button className = "first-button-custom" onClick = { ()=>{this.setState( {flag1:2} )} } >Volgende stap</button> 
 
             </div>

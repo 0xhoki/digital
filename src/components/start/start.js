@@ -30,42 +30,27 @@ class Start_page extends Component {
       <div>
         <div className = "App-first-header-one">
           <span>
-            <Navbar className = "navbar-transparent"  collapseOnSelect>
-              <Navbar.Header>
-                <Navbar.Brand>
-                  <div row>
-                    <a href="#" class="navbar-left"><img className = "heart_custom"  src={image_heart}/></a>
-                    <a className = "font-top-left" href="#">bmi.vlaanderen</a>
+            <nav class="navbar navbar-default navbar-transparent">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a href="#" class="navbar-right"><img className = "heart_custom"  src={image_heart}/></a>
+                  <a className = "font-top-left" href="#">bmi.vlaanderen</a>
                   </div>
-
-
-                </Navbar.Brand>
-                <Navbar.Toggle />
-              </Navbar.Header>
-              <Navbar.Collapse>
-                <Nav pullRight className = "right-navbar">
-                  <NavItem eventKey={1}> <a className = "font-top-right" href="#">HOME </a></NavItem>
-                  <NavItem eventKey={2}> <a className = "font-top-right" href="#">CALCULATORS </a></NavItem>
-                  <NavItem eventKey={3}> <a className = "font-top-right" href="#">TEAM</a></NavItem>
-                  <NavItem eventKey={4}> <a className = "font-top-right" href="#">OVER ONS</a></NavItem>
-                  <NavItem eventKey={5}> <a className = "font-top-right p-r-40" href="#">CONTACTEER ONS</a></NavItem>
-                  <NavItem eventKey={6}> <a className = "font-top-right" href="#"></a></NavItem>
-
-                </Nav>
-              </Navbar.Collapse>
-            </Navbar>
+              </div>
+            </nav>
+  
           </span>
-
           <div>
-
-            <div className = "m-l-100 m-t-100 custom-first-center">
-              <p className = "title-second m-l-100">BMI berekenen voor vrouwen, mannen en kinderen.</p>
-              <div className = "m-l-100 m-t-30">
+            <div className = "m-t-100">
+              <div className = "row">
+                <p className = "title-second margin-auto">BMI berekenen voor vrouwen, mannen en kinderen.</p>
+              </div>
+              <div className = "row">
                 <button className = "button-custom-active" onClick={ ()=>{this.setState({flag:2})}}>Start je berekening</button>
               </div>
             </div>
 
-            <div className = "start-content-container m-t-100">
+            <div className = "start-content-container m-t-100 m-b-50">
                 <div className = "row cutsom-right-flex">
 
                   <div className = "column col-sm-8 m-t-15">
@@ -78,7 +63,7 @@ class Start_page extends Component {
                     <img className = "img-first" src={image_third_first}/> 
                   </div>
                 </div>
-                <div className = "row m-t-100 cutsom-left-flex">
+                <div className = "row m-t-50 cutsom-left-flex">
 
                 <div className = "column col-sm-4">
                     <img className = "img-second" src={image_third_second}/> 
@@ -93,7 +78,7 @@ class Start_page extends Component {
                                                       geen uitspraken over de hoeveelheid vet in het lichaam.</p>
                   </div>
                 </div>
-                <div className = "row m-t-100 cutsom-right-flex">
+                <div className = "row m-t-50 cutsom-right-flex">
 
                   <div className = "col-sm-8  m-t-30">
                     <p className = "title-one">HOE ACTIE ONDERNEMEN BIJ EEN TE HOOG BMI?</p>
@@ -107,17 +92,7 @@ class Start_page extends Component {
                   </div>
                 </div>
             </div>
-            <div className = "row-custom-bottom m-t-50 m-b-100">
-              <div className = "row">
-                <div className = "col-md-1"></div>
-                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_first}/> </div>
-                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_second}/></div>
-                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_third}/></div>
-                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_fourth}/></div>
-                <div className = "col-sm-2 margin-auto"> <img className="bottom-img-custom" src={image_footer_fifth}/></div>
-                <div className = "col-sm-1"></div>
-              </div>
-            </div>
+
         </div>
         </div>
       </div>

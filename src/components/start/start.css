@@ -1,17 +1,22 @@
 .App-first-header-one {
   background-image: url('./assets/image/bg.png');
+  width: 100%;
   height: 800px;
   background-repeat: no-repeat;
-  padding: 5% 15% 0px 15%;
+  padding: 5% 15% 50px 15%;
+  text-align: center;
+}
+
+.custom-center-align{
+  text-align: center;
 }
 .start-content-container{
   background-color: white;
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
-  padding: 15% 9% 50px 9% ; 
+  padding: 50px 10% 40px 10% ;
 }
-
 .font-top-left{
   font-size: 20px;
   font-weight: lighter;
@@ -19,7 +24,6 @@
   letter-spacing: 0.5px;
   color: white !important;
 }
-
 .font-top-right{
   font-size: 12px;
   font-weight: lighter;
@@ -27,7 +31,6 @@
   letter-spacing: 1px;
   color: white !important;
 }
-
 .navbar-transparent {
   border-width: 0px;
   -webkit-box-shadow: 0px 0px;
@@ -63,7 +66,6 @@
   width: 200px;
   height: 240px;
 }
-
 .col-sm-4.column{
   width: 240px; 
   text-align: center;
@@ -93,9 +95,7 @@
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
     padding: 50px 10% 50px 10% ;
   }
-  .custom-first-center{
-    text-align: center;
-  }
+
 }
 @media (max-width: 320px) {
   .img-first{
@@ -131,9 +131,10 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 .bottom-img-custom{
     text-align: center;
     height: 35px;
     width: 80px;
 }
+
+

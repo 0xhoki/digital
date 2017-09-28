@@ -10,7 +10,22 @@
   width: 100%;
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.05);
-  padding: 6% 10% 50px 10% ;
+  padding: 20px 10% 40px 10% ;
+}
+.font-add{
+  font-weight: bold;
+  font-size: 22px;
+}
+.bmi_result_font{
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+}
+.font-explain-bmi{
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #5C6373;
 }
 .button-custom-active {
   background-color: #FF7D7D;

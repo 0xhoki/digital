@@ -6,7 +6,21 @@ import img_right from './assets/image/img_right.png'
 import './fifth.css';
 
 import Sixth_page from '../sixth/sixth';
-import Second_page from '../second/second';
+import Start_page from '../start/start';
+import Mytopprogressbar from '../mytoppb/mytoppb';
+
+function bmi_explain(f){
+  if(f < 18.5)
+    return "Onder-gewicht";
+  else if(f>=18.5 & f<=24.9)
+    return "Normaal";
+  else if(f>=25 & f<=29.9)
+    return "licht Overgewicht";
+  else if(f>=30 & f<=39.9)
+    return "Zwaarlijvigheid (obesitas)";
+  else if(f>=40)
+    return "Ernstige zwaarlijvigheid";
+}
 
 class Fifth_page extends Component {
   constructor(props){
@@ -17,9 +31,9 @@ class Fifth_page extends Component {
         age: this.props.age,
         weight: this.props.weight,
         height: this.props.height/100.0,
-        value_bmi: Number(( (this.props.weight*10000.0)/(this.props.height*this.props.height) ).toFixed(2))
+        value_bmi: Number(( (this.props.weight*10000.0)/(this.props.height*this.props.height) ).toFixed(2)),
     }
-
+    
     
   }  
   render() { 
@@ -29,14 +43,22 @@ class Fifth_page extends Component {
         
               <div className = "App">
                 <div className = "App-fifth-header">
-                  <div className = "fifth-content-container m-b-50">
-                    <div className = "row m-t-100"> 
+
+
+                  <div className = "fifth-content-container m-b-50 m-t-50">
+                    <div className = "row m-t-50"> 
                       <div className = "row m-l-50 m-r-50"><p className = "font-third-title">Je BMI berekening resultaat</p></div>
                       <div className = "row m-l-20 m-r-20"><p className = "center-font-third-second max-width-525">We hebben al je parameters bekeken en opgenomen in onze berekening.
-                                                Je BMI IS {this.state.value_bmi}. Dit wil zeggen dat je …</p></div>
+                                                Je BMI IS <span className = "font-add"> {this.state.value_bmi}</span>. Dit wil zeggen dat je …</p></div>
                     </div>
 
-                    <div className = "row m-t-100 p-l-40 p-r-40">
+                    <div className = "row">
+                      <p className = "center-font-third-second">
+                        {bmi_explain(this.state.value_bmi)}
+                      </p>
+                    </div>
+
+                    <div className = "row m-t-40 p-l-40 p-r-40">
                         <div className = "column col-sm-6" >
                           <button onClick = 
                           { ()=>{
@@ -54,8 +76,7 @@ class Fifth_page extends Component {
                             )}} className = "button-custom-deactive">Opnieuw Berekenen</button> 
                         </div> 
                     </div>
-
-                    <div className = "row m-t-100 cutsom-left-flex ">
+                    <div className = "row m-t-50 cutsom-left-flex ">
                       <div className = "column1 col-sm-4 ">
                         <img className = "img-fifth-one" src={img_left}/>
                       </div>
@@ -68,7 +89,7 @@ class Fifth_page extends Component {
                                                           te ondernemen.</p>
                       </div>
                     </div>
-                    <div className = "row m-t-100 cutsom-right-flex m-b-100">
+                    <div className = "row m-t-20 cutsom-right-flex">
 
                       <div className = "col-sm-8 m-t-40">
                         <p className = "title-one ">ANDERE CALCULATORS</p>
@@ -93,7 +114,7 @@ class Fifth_page extends Component {
     }
     else if(this.state.button_flag == 2){
         return (
-          <div> <Second_page /> </div>
+          <div> <Start_page /> </div>
         );
     }
 
