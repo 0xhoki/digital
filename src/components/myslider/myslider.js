@@ -63,7 +63,7 @@ class Mysliderbar extends Component {
           className = "tooltip-custom"
           prefixCls="rc-slider-tooltip"
           overlay={percentFormatter(value, this.state.myValue) }
-          visible={dragging}
+          visible={true}
           placement="top"
           key={index}
         >
