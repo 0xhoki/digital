@@ -36,8 +36,8 @@ class First_page extends Component {
 
           <div className = "firstt-content-container">
             <div className = "row">
-              <p className = "font-content-title">BMI berekenen begint bij je geslacht</p>
-              <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
+              <p className = "font-content-title"> Je BMI berekenen begint bij je geslacht</p>
+              <p className = "font-content-text m-t-30 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anders in
                                                   de berekening of parameters, enkel in het lezen en interpreteren van
                                                   de resulaten.</p>
             </div>
@@ -55,7 +55,7 @@ class First_page extends Component {
                  <img className = "img-check-custom custom-z-index-right"  src={ this.state.person_change_flag===1 ? img_check: ""} />
                  
                  </div>
-                <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is naar de berekening en resultaat van haar BMI</p> </div>
+                <div className = "row m-t-30"> <p className = "font-content-text">Ik ben een vrouw die nieuwsgierig is naar het resultaat van haar BMI</p> </div>
               </div>
 
               <div className = "col-md-2 custom-left">
@@ -76,7 +76,7 @@ class First_page extends Component {
                     <img className = "img-check-custom custom-z-index-right" src={ this.state.person_change_flag===0 ? img_check: ""} />
                 
                 </div>
-                <div className = "row m-t-30  "> <p className = "font-content-text">Ik ben een man die nieuwsgierig is naar de berekening en resultaat van zijn BMI</p> </div>
+                <div className = "row m-t-30  "> <p className = "font-content-text">Ik ben een man die nieuwsgierig is  naar het resultaat van zijn BMI</p> </div>
               </div>                  
             </div>
 

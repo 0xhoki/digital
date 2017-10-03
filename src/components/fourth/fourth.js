@@ -36,10 +36,9 @@ class Fourth_page extends Component {
           <div className = "row m-t-50 m-b-50">
               <div className = "first-content-container">
                 <div className = "row m-t-50">
-                  <p className = "font-content-title">Je BMI berekenen we op basis van je lengte</p>
-                  <p className = "font-content-text m-t-50 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
-                                                            de berekening of parameters, enkel in het lezen en interpreteren van
-                                                            de resulaten.</p>
+                  <p className = "font-content-title">Om je BMI te berekenen hebben we je lengte nodig</p>
+                  <p className = "font-content-text m-t-50 max-width-525">Om je een juist BMI resultaat en aanbevelingen te geven hebben we je lengte nodig.
+                                                                          Gebruik de slider hieronder om je lengte aan te duiden.</p>
                 </div>
                 <div className = "row m-t-20 m-b-70">
                   <div className = "m-t-100" > <Mysliderbar slider_value={this.setHeightHandle} value_input = "4"/> </div>

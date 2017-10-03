@@ -15,7 +15,7 @@ function bmi_explain(f){
   else if(f>=18.5 & f<=24.9)
     return "Normaal";
   else if(f>=25 & f<=29.9)
-    return "licht Overgewicht";
+    return "Licht Overgewicht";
   else if(f>=30 & f<=39.9)
     return "Zwaarlijvigheid (obesitas)";
   else if(f>=40)
@@ -49,7 +49,7 @@ class Fifth_page extends Component {
                     <div className = "row m-t-50"> 
                       <div className = "row m-l-50 m-r-50"><p className = "font-third-title">Je BMI berekening resultaat</p></div>
                       <div className = "row m-l-20 m-r-20"><p className = "center-font-third-second max-width-525">We hebben al je parameters bekeken en opgenomen in onze berekening.
-                                                Je BMI IS <span className = "font-add"> {this.state.value_bmi}</span>. Dit wil zeggen dat je …</p></div>
+                                                Je BMI IS <span className = "font-add"> {this.state.value_bmi}</span>. Dit resultaat staat gelijk aan ...</p></div>
                     </div>
 
                     <div className = "row">
@@ -85,7 +85,7 @@ class Fifth_page extends Component {
                       </div>
                       <div className = "col-sm-8 m-t-20 custom-m-l-20">
                         <p className = "title-one p-l-50">WAAROM IS MIJN BMI BELANGRIJK?</p>
-                        <p className = "title-two p-l-50">e BMI is belangrijk, omdat het aangeeft in hoeverre er sprake is van een
+                        <p className = "title-two p-l-50">Je BMI is belangrijk, omdat het aangeeft in hoeverre er sprake is van een
                                                           gezond gewicht. Aan de hand van de formule voor je BMI kun je
                                                           berekenen of er sprake is van ondergewicht, een gezond gewicht of
                                                           overgewicht. Is je BMI te laag of te hoog? Dan is het verstandig om actie
