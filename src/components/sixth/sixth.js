@@ -57,7 +57,7 @@ class Sixth_page extends Component {
             <div className = "row">
               <div className = "column col-sm-6">
                 <p className = "font-content-mini">Gewenst gewicht</p>
-                <input type="text" className = "custom-input-text m-b-30" name="gweight" placeholder="in KG" />
+                <input type="text" className = "custom-input-text m-b-30" name="gweight" placeholder="KG" />
               </div>
               <div className = "column col-sm-6">
                 <p className = "font-content-mini">Provincie</p>

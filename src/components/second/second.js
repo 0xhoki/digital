@@ -34,10 +34,10 @@ class Second_page extends Component {
             <div className = "row m-t-50 m-b-50">
               <div className = "first-content-container ">
                 <div className = "row m-t-50">
-                  <p className = "font-content-title">Je leeftijd heeft invloed op het resultaat van je BMI</p>
-                  <p className = "font-content-text m-t-50 max-width-525">Leeftijd is geen parameter in de berekening van je BMI.
-                                                                          De leeftijd wordt alleen gebruikt om ons advies aan te passen.
-                                                                          Gebruik de slider hieronder om je leeftijd aan te duiden.</p>
+                  <p className = "font-content-title">Je BMI berekenen we op basis van je leeftijd</p>
+                  <p className = "font-content-text m-t-50 max-width-525">Het berekenen van het BMI van een man of vrouw is niet anderes in
+                                                            de berekening of parameters, enkel in het lezen en interpreteren van
+                                                            de resulaten.</p>
                 </div>
 
 
